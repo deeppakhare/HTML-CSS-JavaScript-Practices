@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Happy Friendship Day !</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #ffecd2 0%, #FCB69F 100%);
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff69;
+            margin-bottom: 20px;
+            animation: text-pop 1s ease forwards;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .emoji {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes text-pop {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>💖 Happy Friendship Day my all Friends 💖</h1>
+        <p>
+            True friends are never apart, maybe in distance but never in heart. <br>
+            Thank you for being an amazing friend!🎉<br />
+            let's celebrate the bond that makes life so special.
+        </p>
+        <div class="emoji">
+            💃🕺🫰💓✨
+        </div>
+</body>
+
+</html>

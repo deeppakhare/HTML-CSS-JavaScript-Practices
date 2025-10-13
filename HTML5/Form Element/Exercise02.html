@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <meta name="keywords" content="Online, Shopping">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="Login.html">Login</a> |
+            <a href="Signup.html">SignUp</a> |
+            <a href="Track.html">Track Order</a> 
+        </nav>
+        <h1>Track your order</h1>
+    </header><br/><br/>
+    <artical>
+        <h2>Rate your shopping experience:</h2>
+            
+            <form oninput="M1.value = parseInt(R1.value);M2.value = parseInt(R2.value);M3.value = parseInt(R3.value);M4.value = parseInt(R4.value);">
+                Delivery of product on time :<input type="range" id="R1"/><meter id="M1" min="0" max="100" value="50">0 to 100</meter> 
+                <!-- Add range element with id="R1" and meter element with id="M1" --><br/><br/> 
+                Product quality :<input type="range" id="R2"/><meter id="M2" min="0" max="100" value="60">60 of 100</meter> 
+                <!-- Add range element with id="R2" and meter element with id="M2" --><br/><br/> 
+                How friendly the site is : <input type="range" id="R#"/><meter id="M3" min="0" max="100" value="20">20 of 100</meter>
+                <!-- Add range element with id="R3" and meter element with id="M3" --><br/><br>
+                Were you able to find the product which you were looking for?: <input type="range" id="R4" min="0" max="100" value="30"/><meter id="M4" min="0" max="100" value="30"></meter>
+                <!-- Add range element with id="R4" and meter element with id="M4" --><br/><br/>
+            </form>
+    </artical>
+    <footer>
+        <nav>
+        About US | Privacy Policy | Contact Us | FAQ | Terms & Conditions <br/>
+        Copyright &copy; 2018 | Giri
+        </nav>
+    </footer>
+</body>
+
+</html>

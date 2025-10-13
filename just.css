@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg,#ffecd2 0%,#FCB69F 100%);
+}
+.card{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    max-width: 500px;
+    animation: float 4s ease-in-out infinite;
+}

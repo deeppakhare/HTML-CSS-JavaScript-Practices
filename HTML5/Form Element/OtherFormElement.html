@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form>
+        <h4>Slider Form Elements</h4>
+        Rate your experience:<input type="range" /><br />
+        Time consumed for the training:<meter min="0" max="100" value="80">50 to 100</meter><br />
+        Completion of the course:<progress min="0" max="100" value="60">50 to 100</progress>
+    </form><br/>
+
+    <form oninput="O1.value = parseInt(R1.value)">
+        Rate your experience:<input type="range" id="R1" min="0" max="100" step="10"/><br/>
+        <output for="R1" id="O1"></output>
+    </form>
+</body>
+
+</html>
