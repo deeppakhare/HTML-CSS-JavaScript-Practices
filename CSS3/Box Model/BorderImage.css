@@ -1,0 +1,28 @@
+img
+{
+	margin-left:150px;
+	margin-top:50px;
+	border: 50px solid transparent;
+	border-image:url(frame1.jpg) 13% 17% 14% 15%;
+}
+#myDIV{
+	border: 15px solid transparent;
+	border-image: url(border.png);
+	margin-left: 150px;
+	margin-top: 50px;
+	border-image-slice: 20;
+	border-image-repeat: round;
+	border-image-outset: 10px;
+	height: 30px;
+	padding: 15px;
+	width: 250px;
+}
+#Exercise img{
+	margin-top: 80px;
+	height: 250px;
+	border: 50px solid transparent;
+	border-image: url(border_image_4.jpg) 120;
+	border-image-slice: 20px;
+	border-image-outset: 10px;
+	border-image-repeat: round;
+}

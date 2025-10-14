@@ -1,0 +1,51 @@
+div {
+  width: 305px;
+  height: 45px;
+}
+
+.div1 {
+  background-color: black;
+  background-color: rgb(187, 137, 137);
+}
+
+.div2 {
+  background-color: black;
+  background-color: rgb(103, 168, 103);
+}
+
+.div3 {
+  background-color: black;
+  background-color: rgba(102, 102, 173, 0.3);
+}
+
+.div4 {
+  background-color: black;
+  background-color: hsl(120, 52%, 57%);
+}
+
+.div5 {
+  background-color: black;
+  background-color: hsl(356, 44%, 46%);
+}
+
+.div6 {
+  background-color: black;
+  background-color: hsl(289, 39%, 45%);
+}
+
+.div7 {
+  background-color: black;
+  background-color: hsla(120, 55%, 54%, 0.3);
+}
+
+.div8 {
+  background-color: black;
+  background-color: hsla(63, 43%, 33%, 0.3);
+}
+
+.div9 {
+  background-color: black;
+  background-color: hsla(290, 51%, 44%, 0.3);
+}
+
+    

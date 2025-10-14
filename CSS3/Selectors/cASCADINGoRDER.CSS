@@ -1,0 +1,20 @@
+sid {
+  color: blue;
+  font-size: 10px;
+}
+#sid p {
+  color: red !important;
+}
+section #pid {
+  color: green;
+  font-size: 150%;
+}
+#sid #pid {
+  color: blue;
+}
+section.sclass p#pid.pclass {
+  color: green;
+}
+p {
+  color: limegreen !important;
+}

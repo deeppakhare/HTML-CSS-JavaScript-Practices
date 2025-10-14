@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+article {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 10%;
+  height: 1000px;
+  position: relative;
+}
+
+ul {
+  top: 0px;
+  padding-bottom: 14px;
+}
+
+.btn-list {
+  width: 100%;
+  border: 1px solid #DDD;
+  padding: 10px;
+  background: #FFF;
+  height: 60px;
+  color: #999;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+tbody {
+  color: #FFF;
+}
+
+th {
+  background: #F5F5F5;
+  display: none;
+}
+
+td, th {
+  height: 53px
+}
+
+td+td, th+th {
+  text-align:center;
+  display:none;
+}
+
+td.default {
+  display: table-cell;
+}
+
+.text-side {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text-top {
+  position: relative;
+  top: -9px;
+  left: -2px;
+}
+
+.hide {
+  border: 0;
+  background: none;
+}
+
+
+.tick {
+  font-size: 18px;
+  color: #2CA01C;
+}
+
+.wrong {
+  font-size: 18px;
+  color: red;
+}

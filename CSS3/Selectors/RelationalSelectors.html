@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Relational Selectors</title>
+<link rel="stylesheet" type="text/css" href="RelationalSelectors.css">
+ 
+</head>
+ 
+<body>
+<h1>CSS3 Selectors</h1>
+<h3>Relational Selectors</h3>
+<p>This is a &lt;p&gt; element. Child of &lt;body&gt; element. </p> 
+ 
+<section>
+<p>This is a &lt;p&gt; element. Grand child of &lt;body&gt; element. 
+Placed inside &lt;section&gt; element.</p> 
+</section>
+ 
+<p>This is a &lt;p&gt; element. Child of &lt;body&gt; element. 
+Placed immediately after &lt;section&gt; element.</p>  
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relational selectors</title>
+    <style>
+        div > p {
+                background-color: lightblue;
+                color: green;
+        }
+        div+p {
+            color: blue;
+            font-weight: bold;
+        }
+        div~p{
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>This is a paragraph inside a div element.</p>
+        <p>This is another paragraph inside a div element.</p>
+    </div>
+    <p>This is a paragraph, not inside a div element.</p>
+    <p>This is another paragraph, not inside a div element.</p>
+</body>
+
+</html>
+

@@ -1,0 +1,24 @@
+.fontfamily {
+  font-family: "comic sans ms", Arial;
+}
+.customFont {
+  font-family: myFont;
+}
+.fontstyle {
+  font-style: italic;
+}
+.fontvariant {
+  font-variant:small-caps;
+}
+.fontweight {
+  font-weight: bold;
+  font-size: 100px;
+}
+.lineHeight {
+  line-height: 20px;
+}
+@font-face {
+  font-family: myFont;
+  src: url(blackjack.otf);
+}
+

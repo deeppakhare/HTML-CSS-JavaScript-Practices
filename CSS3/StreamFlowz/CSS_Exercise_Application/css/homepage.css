@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("/CSS3/StreamFlowz/CSS_Exercise_Application/img/slide2.jpg");
+}
+.bgimg {
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.nav-bar .fa {
+  display: none;
+}
+
+.nav-bar {
+  padding: 40px 120px;
+  color: white;
+}
+
+.nav-links {
+  flex: 1;
+}
+
+.nav-links ul {
+  display: inline;
+}
+
+.nav-links ul li::after {
+  display: block;
+  background: orange;
+  margin: auto;
+  display: block;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.btn {
+  border: 0;
+  background: rgba(230, 41, 41, 0.678);
+  cursor: pointer;
+}
+
+.nav-links .btn a {
+  color: #000;
+}
+
+.banner-title {
+  margin: 80px 120px;
+  color: white;
+}
+
+.banner-title h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.banner-title h1 span {
+  color: rgba(230, 41, 41, 0.678);
+}
+
+@media (max-width: 700px) {
+  .fa-bars {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  .nav-bar .fa {
+    display: block;
+    color: white;
+    margin: 10px 25px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links {
+    background: #000;
+    text-align: left;
+    z-index: 2;
+  }
+  .nav-links ul a {
+    display: block;
+  }
+}
+
+.wordCarousel div {
+  overflow: hidden;
+  position: absolute;
+  display: inline-block;
+  height: 95px;
+}
+
+.wordCarousel div li {
+  text-transform: capitalize;
+  font-size: 64px;
+  font-weight: bold;
+  padding: 0px 10px;
+  height: 70px;
+  margin-bottom: 70px;
+  display: block;
+  color: rgba(230, 41, 41, 0.678);
+}
+
+.flip2 {}
+
+.flip3 {}
+
+.flip4 {}
+
+@keyframes flip2 {
+  0% {
+    margin-top: -280px;
+  }
+  5% {
+    margin-top: -140px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -350px;
+  }
+}
+
+@keyframes flip3 {
+  0% {
+    margin-top: -420px;
+  }
+  5% {
+    margin-top: -280px;
+  }
+  33% {
+    margin-top: -280px;
+  }
+  38% {
+    margin-top: -140px;
+  }
+  66% {
+    margin-top: -140px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -420px;
+  }
+}
+
+@keyframes flip4 {
+  0% {
+    margin-top: -560px;
+  }
+  5% {
+    margin-top: -420px;
+  }
+  25% {
+    margin-top: -420px;
+  }
+  30% {
+    margin-top: -280px;
+  }
+  50% {
+    margin-top: -280px;
+  }
+  55% {
+    margin-top: -140px;
+  }
+  75% {
+    margin-top: -140px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -420px;
+  }
+}
+
+.footer ul {
+  margin-left: 400px;
+  display: inline;
+}
+
+.footer ul li {
+  display: inline;
+  list-style: none;
+  padding: 8px 20px;
+}
+
+.footer ul a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(240, 116, 116, 0.678);
+
+}
+.footer {
+height: 80px;
+width: 100%;
+background-color: rgba(8, 7, 7, 0.678);
+}

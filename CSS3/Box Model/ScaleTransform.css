@@ -1,0 +1,16 @@
+img
+{
+   width:200px;
+   height:300px;
+   border:1px solid black;;
+}
+img#scale
+{
+   width:200px;
+   height:300px;
+   margin-left: 100px;
+   border:1px solid black;
+   margin-top:70px;
+   transform:scale(1.5,1.5);
+
+}

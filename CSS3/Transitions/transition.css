@@ -1,0 +1,64 @@
+.timings_demo {
+    width: 500px;
+    height: 350px;
+    border: 1px #aaa solid;
+    padding: 15px;
+}
+
+.test_box {
+    width: 50px;
+    height: 50px;
+}
+
+#ease-in.test_box {
+    transition: all 4s cubic-bezier(0,1.1,0.8,4);
+    background-color: red;
+    
+}
+
+#linear.test_box {
+    transition: all 4s linear;
+    background-color: orange;
+}
+
+.timings_demo:hover .test_box {
+    transform: translate(440px);
+    background-color: green;
+}
+
+.box {
+    background: rgb(30, 30, 118);
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    -webkit-transition: 4s steps(4);
+    transition: 4s steps(4);
+}
+
+#go:target .box {
+    -webkit-transform: translate(400px);
+    transform: translate(400px);
+}
+
+body {
+    font: .7em Arial;
+}
+
+a {
+    padding: 5px 10px;
+    background: rgb(13, 183, 25);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p {
+    font-size: 1.2em;
+}

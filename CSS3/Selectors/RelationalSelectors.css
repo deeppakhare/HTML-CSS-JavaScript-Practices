@@ -1,0 +1,26 @@
+p
+{
+	margin-left:50px;
+	
+}
+h1
+{
+	text-align:center;
+}
+h3
+{
+	margin-left:50px;
+} 
+body p{
+	font-size:30px;
+	font-family:helvetica;
+}
+ 
+body>p{
+	color:red;
+}
+ 
+section+p
+{
+	color:maroon;
+}

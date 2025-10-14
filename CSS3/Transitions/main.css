@@ -1,0 +1,42 @@
+.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 8px 8px 8px -5px rgba(0,0,0,.3);
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #9dcbea;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+.promotion {
+    
+    animation-name: ADD;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+@keyframes ADD{
+    from{
+        transform: translate(0px) ;
+    }
+    to{
+        transform: translate(500px);
+    }
+}

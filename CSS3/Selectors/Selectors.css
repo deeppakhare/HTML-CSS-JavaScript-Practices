@@ -1,0 +1,12 @@
+body{
+    background-color: lightgray;
+}
+
+h1,h2,h3{
+    color: maroon;
+}
+
+div p{
+    color: red;
+    background-color: yellow;
+}

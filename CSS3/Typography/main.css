@@ -1,0 +1,58 @@
+div.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: -20px -20px 50px 20px rgb(214, 2, 2);
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #87CEFA;
+    border-radius: 20px;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+h3{
+    text-shadow: 3px 1px 6px orangered;
+}
+
+
+
+/*
+div.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #87CEFA;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+h3{
+    font-family: myfont;
+}
+@font-face {
+  font-family: myFont;
+  src: url("SeasideResortNF.ttf");
+
+} */

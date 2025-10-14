@@ -1,0 +1,72 @@
+.main-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px 7px 7px 7px;
+}
+.main-cover {
+  width: 400px;
+  padding: 20px 0px 35px 40px;
+  position: relative;
+}
+.main-cover h1 {
+  width: 200px;
+  margin-left: 200px;
+  display: flex;
+}
+.main-cover h3 {
+  width: 200px;
+  margin-left: 200px;
+  display: flex;
+  text-decoration: none;
+}
+.main-cover h5 {
+  width: 200px;
+  margin-left: 200px;
+  display: flex;
+  text-decoration: none;
+}
+.play-all {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 235px;
+  width: 100px;
+  height: 20px;
+}
+.play-video {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.play-audio {
+  position: absolute;
+  top: 250px;
+  left: 235px;
+}
+audio {
+  width: 500px;
+}
+.lyrics{
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  width: 800px;
+ 
+}
+.lyrics h2{
+    color: rgb(231, 231, 160);
+}
+.lyrics p{
+    color: white;
+    font-size: 14px;
+}

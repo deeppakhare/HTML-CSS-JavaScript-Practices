@@ -1,0 +1,15 @@
+a:hover {
+  background-color: black;
+  color: white;
+}
+a:visited {
+  color: purple;
+}
+p::first-letter{
+    font-size: 200%;
+    color: aquamarine;
+    font-family: monospace;
+}
+P{
+    font-style: italic;
+}

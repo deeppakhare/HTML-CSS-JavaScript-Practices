@@ -1,0 +1,96 @@
+#login_form
+{
+    width: 400px;
+    height: 350px;
+    margin-top:50px;
+    margin-left:80px;
+    padding: 20px;
+    border: 2px solid rgba(128,128,128,0.17);
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+ }
+@font-face
+{
+font-family: myFirstFont1;
+src: url('blackjack.otf'); 
+}
+h1 
+{
+    text-align: center;
+    margin: 0 0 20px;
+    font-family:myFirstFont;
+	text-shadow: 0px 0px 10px rgba(255,0,0,1);
+}
+input{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid rgba(128,128,128,0.17);
+    border-radius:20px;
+}
+#login_button{
+    margin: 20px 0 0 0;
+    padding: 15px 8px;          
+    width: 20%;
+    height:22%;
+    border: 1px solid hsla(0,72%,27%,0);
+    font: bold 1.2em myFirstFont1;
+    color: #fff;
+    background-color: #4d90fe;
+    border-radius:20px;
+} 
+input:focus
+{
+	outline:0;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+} 
+a
+{
+	font-family:myFirstFont;
+}
+
+
+/* 
+#login_form
+{
+    width: 400px;
+    height: 300px;
+    margin-top:50px;
+    margin-left:80px;
+    padding: 20px;
+    border: 2px solid #808080;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+ }
+h1 
+{
+    text-align: center;
+    margin: 0 0 20px;
+    text-shadow: 4px 4px 2px #3F51B5, -4px -4px 3px #E91E63; 
+}
+input{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius:20px;
+}
+#login_button{
+    margin: 20px 0 0 0;
+    padding: 15px 8px;          
+    width: 20%;
+    height:20%;
+    border: 1px solid hsla(0,72%,27%,0);
+    font: bold 1.2em myFirstFont;
+    color: #fff;
+    background-color: #4d90fe;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+ }
+input:focus
+{
+    outline:0;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+} 
+
+*/

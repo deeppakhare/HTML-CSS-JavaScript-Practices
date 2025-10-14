@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MediaQueries Demo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="screen" href="css/default.css" />
+    <link rel="stylesheet" media="screen" href="css/enhanced.css" />
+    <style>
+        body {
+            color: #2A4560;
+        }
+        header a {
+            background-color: #2A4560;
+            color: #fff;
+        }
+        div {
+            background-color: #e4ecf4;
+            color: #2A4560;
+        }
+        footer {
+            background-color: #2A4560;
+        }
+        footer p {
+            color: #fff;
+        }
+        ul.features > li a {
+            color:red;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+        header, footer {
+            text-align: center;
+        }
+        body, header,div, footer, fieldset, ul, li, h1, h2, p, img {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .features a {
+            margin-top: 1em;
+            padding: .5em;
+        }
+        footer {
+            padding: 1em;
+        }
+        @media ( max-width : 400px){
+            ul.features li a {
+                color: black;
+            }
+            img {
+                display: none;
+            }
+        }
+        @media ( min-width : 600px) {
+            body>* {
+                margin: 0 auto;
+                max-width: 56.25em;
+            }
+            ul.features {
+                text-align: center;
+            }
+            ul.features li {
+                display: inline-block;
+                margin: 2%;
+                min-height: 18em;
+                text-align: left;
+                width: 28%;
+            }
+        }
+        @media screen and (min-width: 900px) {
+            header {
+                height: 4em;
+            }
+        }
+    </style>
+   
+</head>
+
+<body>
+    <header>
+        <h1>RWD</h1>
+    </header> 
+    <div class="content">     
+        <ul class="features">
+            <li class="engage">
+                <h3>Fluid Layout</h3>
+                 <p>CSS3 Media queries enable you to style a page based on different display surface
+                    factors such as width, height, orientation, resolution, etc. Media query listeners</p>
+            </li>
+            <li class="customize">
+                <h3>Flexible Image</h3>
+                <p>CSS3 Media queries enable you to style a page based on different display surface
+                    factors such as width, height, orientation, resolution, etc. Media query listeners</p>             
+                    
+            </li>
+            <li class="integrate">
+                <h3>Media Queries</h3>
+                <p>CSS3 Media queries enable you to style a page based on different display surface
+                    factors such as width, height, orientation, resolution, etc. Media query listeners</p>            
+                  
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
+</body>
+
+</html>
