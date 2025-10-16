@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Summary</title>
+    <style>
+        div#maincontent {
+            height: 250px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: left;
+            color: #08438E;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+        div#heading {
+            text-decoration: bold;
+            text-align: center;
+            margin-top: 80px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: center;
+            color: #08438E;
+            background-color: #CEE2FA;
+            font-family: calibri;
+            font-size: 20;
+            padding: 5px;
+        }
+        h2 {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+ 
+<body>
+    <center>
+        <div id="heading">
+            <h2>Booking Summary</h2>
+        </div>
+        <div id="maincontent">
+            <script>
+                //Write the code to display the booking summary
+             const calculateDiscount = (seats) => {
+                if (seats === 3) return 5;
+                if (seats === 4) return 7;
+                if (seats === 9) return 9;
+                return 0;
+            }
+
+            function calculateCost(seats){
+                const ticketprice = 9;
+                let output = "";
+
+                if (seats >= 6) {
+                    output = "Booking not allowed for 6 or more seats";
+                    return output;
+                }
+                 if (seats <= 2){
+                    let total = seats * ticketPrice;
+                    output = ` Seats Booked: ${seats} <br> Total Cost: $${total}`;
+                    return output;
+                 }
+
+                 let total = seats * ticketPrice;
+                 let discountPercent
+            }
+            </script>
+        </div>
+    </center>
+</body>
+ 
+</html>

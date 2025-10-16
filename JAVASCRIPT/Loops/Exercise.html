@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Details</title>
+    <style>
+        div#maincontent {
+            height: auto;
+            width: 600px;
+            border: 1px solid #CEE2FA;
+            text-align: left;
+            color: #08438E;
+            font-family: calibri;
+            font-size: 20px;
+            padding: 10px;
+        }
+        div#heading {
+            text-align: center;
+            margin-top: 80px;
+            width: 600px;
+            border: 1px solid #CEE2FA;
+            color: #08438E;
+            background-color: #CEE2FA;
+            font-family: calibri;
+            font-size: 20px;
+            padding: 10px;
+        }
+        h4 {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="heading">
+            <b>Theatre Drama</b>
+        </div>
+        <div id="maincontent">
+            <h4>Your Ticket Details:</h4>
+            <br>
+            <script>
+                let seats = 4;
+                const pricePerTicket = 9;
+                let totalCost = 0;
+                let originalCost = seats * pricePerTicket;
+
+                if (seats <= 2) {
+                    totalCost = seats * pricePerTicket;
+                    document.write(`For ${seats} tickets, total cost is: $${totalCost.toFixed(2)}`);
+                }
+                else if (seats >= 6) {
+                    document.write("❌ Booking not allowed for 5 or more seats.");
+                }
+                else {
+                    let discount = 5;
+                    let i = 1;
+                    /* for (let i = 1; i <= seats; i++) {
+                        let discountedPrice = pricePerTicket - (pricePerTicket * discount / 100);
+                        totalCost += discountedPrice;
+                        document.write(`Ticket for Customer ${i} gets ${discount}% discount!, Cost is: $${discountedPrice.toFixed(2)} <br>`);
+                        discount += 2;
+
+
+                    } */
+                    
+                    /*while(i <= seats){
+                        let discountedPrice = pricePerTicket - (pricePerTicket * discount / 100);
+                        totalCost += discountedPrice;
+                        discount += 2;
+                        document.write(`Ticket for Customer ${i} gets ${discount}% discount, Cost is :$${discountedPrice} <br>`);
+                        i++;
+                    } */
+
+                    do {
+                        let discountedPrice = pricePerTicket - (pricePerTicket * discount / 100);
+                        totalCost += discountedPrice;
+                        document.write(`Ticket for Customer ${i} gets ${discount}% discount, Cost is :$${discountedPrice} <br>`);
+                        discount += 2;
+                        i++;
+                    } while(i <= seats)
+                    
+                    document.write(`<br>For ${seats} tickets, you need to pay: $${totalCost.toFixed(2)} instead of $${originalCost} `);
+                }
+            </script>
+        </div>
+    </center>
+</body>
+</html>
