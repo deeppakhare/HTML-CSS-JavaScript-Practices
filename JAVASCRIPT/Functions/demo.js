@@ -23,4 +23,40 @@ function addTwoNumbers (num1, num2) {
 }
 const result = addTwoNumbers(3, 4)
 
-console.log("Result value",result);
+// console.log("Result value",result);
+
+function loginUserMessage (username) {
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("Deeep"));
+
+
+function calculateCartPrice(...num1) {
+    return num1
+}
+// console.log(calculateCartPrice(2000,300,4222,4323));
+
+
+const user = {
+    username: "deep",
+    price: 342
+}
+
+function handleObject(anyobject ) {
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+handleObject ({
+    username: "pakhare",
+    price : 33
+})
+
+const myNewArray = [200, 3333, 444]
+
+function returnsecondvalue(getarray) {
+    return getarray[2]
+}
+console.log(returnsecondvalue(myNewArray));
