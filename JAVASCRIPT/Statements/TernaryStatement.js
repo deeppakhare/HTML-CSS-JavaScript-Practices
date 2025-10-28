@@ -3,7 +3,7 @@
 // (workingHours > 9.15) ? additionalHours = "You have positive additional hours" : additionalHours = "You have negative additional hours"; 
 // console.log(additionalHours); 
 
-let score = 49;
+let score = 85;
 
 let grade = (score >= 90) ? "A" :
     (score >= 75) ? "B" :
