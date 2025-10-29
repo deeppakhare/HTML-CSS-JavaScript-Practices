@@ -27,5 +27,13 @@ let newDate = new Date()
 newDate.toLocaleString('default',{
     weekday: "long",
 })
-console.log(newDate);
+// console.log(newDate);
 
+const start = new Date('2004-09-02');
+const end = new Date('2025-10-29');
+
+const diffMs = end - start;          // milliseconds
+const diffDays = diffMs / (1000 * 60 * 60 * 24 * 30 * 12);
+
+console.log(diffDays); // 7
+console.log(diffMs);

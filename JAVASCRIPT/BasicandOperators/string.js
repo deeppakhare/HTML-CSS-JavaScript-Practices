@@ -12,7 +12,7 @@
 
 const icons = "AB💖✨👍☝️"
 
-console.log(icons.codePointAt(1));
+console.log(icons.codePointAt(0));
 
 
 
