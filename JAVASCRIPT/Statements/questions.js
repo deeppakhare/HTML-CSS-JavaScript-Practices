@@ -1,143 +1,261 @@
-//..............01................
-//....Write a JavaScript program to check whether a number is positive or negative.
-// let num = -1;
-// if (num > 0 ) {
-//     console.log("It is positive")
-// } else {
-//     console.log("It is negative")
+// 🟢 Basic Level (1–7)
+
+// 1. Write an if condition to check if a user is logged in (userLoggedIn = true) and has a debit card. If both are true, print "Payment allowed".
+
+// let userLoggedIn = true
+// let debitCard = true
+
+// if (userLoggedIn == true && debitCard == true) {
+//     console.log(`User has Payment Allowed`)
 // }
 
-//..................02.....................
-//Write a script that checks if a given number is even or odd.
-// let num = 16;
+// 2.Modify the above code so that it only prints "Payment allowed" when the user is logged in and the debit card is not expired.
+
+// let userLoggedIn = true
+// let debitCard = true
+// let notExpired = false
+
+// if (userLoggedIn && debitCard && !notExpired) {
+//     console.log(`User has Payment Allowed`)
+// }
+// 3.Create two variables loggedInFromGoogle and loggedInFromEmail. If either is true, print "User logged in".
+
+// const loggedInFromGoogle = true
+// const loggedInFromEmail = true
+// if (loggedInFromEmail || loggedInFromGoogle) {
+//     console.log(`User Logged in`)
+// }
+
+// 4.Write a program that checks if a number is positive, negative, or zero using if / else if / else.
+
+// let num = 0
+// if (num > 0) {
+//     console.log(`It is Positive`);
+// } else if (num < 0){
+//     console.log(`It is negative`);
+// } else {
+//     console.log(`It is zero`)
+// }
+
+// 5.Use a switch statement to print the name of the month based on its number (1–12).
+
+// let month = 51
+// switch (month) {
+//     case 1:
+//         console.log("Jan")
+//         break;
+//     case 2:
+//         console.log("feb")
+//         break;
+//     case 3:
+//         console.log("mar")
+//         break;
+//     case 4:
+//         console.log("aprl")
+//         break;
+//     case 5:
+//         console.log("may")
+//         break;
+//     case 6:
+//         console.log("jun")
+//         break;
+//     case 7:
+//         console.log("july")
+//         break;
+//     case 8:
+//         console.log("aug")
+//         break;
+//     case 9:
+//         console.log("sep")
+//         break;
+//     case 10:
+//         console.log("oct")
+//         break;
+//     case 11:
+//         console.log("nov")
+//         break;
+//     case 12:
+//         console.log("dec")
+//         break;
+
+//     default:
+//         console.log(`Default input`)
+//         break;
+// }
+
+// 6.Write a switch statement that takes a day number (0–6) and prints the corresponding day name.
+
+// const dayNo = 0
+// switch (dayNo) {
+//     case 0:
+//         console.log(`Its Sunday`)
+//         break;
+//     case 1:
+//         console.log(`Its Monday`)
+//         break;
+//     case 2:
+//         console.log(`Its Tuesday`)
+//         break;
+//     case 3:
+//         console.log(`Its Wednesday`)
+//         break;
+//     case 4:
+//         console.log(`Its Thrusday`)
+//         break;
+//     case 5:
+//         console.log(`Its Friday`)
+//         break;
+//     case 6:
+//         console.log(`Its Saturday`)
+//         break;
+
+//     default:
+//         console.log(`Default input`)
+//         break;
+// }
+
+// 7.Use if statements to print "Even" if a number is even, otherwise print "Odd".
+
+// let num = 0
 // if (num % 2 == 0) {
-//     console.log("it is even");
-//     } else {
-//         console.log("it is odd")
-//     }
-
-//........................03....................
-//Write a program to check if a person is eligible to vote (age ≥ 18).
-// let num = 18;
-// if (num >= 18) {
-//     console.log("eligible for vote")
+//     console.log(`It is Even Number`)
+// } else if (num % 2 != 0) {
+//     console.log(`it is odd number`)
 // } else {
-//     console.log("no eligible for voting");
-    
+//     console.log(`invalid input`)
 // }
 
-//......................04...................
-//Write a program that checks if a given string is "Hello" — if yes, print "Greeting detected!".
-// var text = "Hel2o";
-// if (text == "Hello") {
-//     console.log("Greeting Detected")
+// 🟡 Intermediate Level (8–14)
+
+// 8.Given const userEmail = "", check if the user has provided an email. If not, print "No email provided".
+
+// const userEmail = "deep@gmail"
+// if (userEmail) {
+//     console.log(`Email Provided`)
 // } else {
-//     console.log("not detected");
-    
+//     console.log(`No email provided`)
 // }
 
+// 9.List all the falsy values in JavaScript and write a code snippet that prints only the truthy values from this array: const values = [0, 1, "", "Hello", null, undefined, "0", [], {}];
 
-//.................05......................
-//Write a script that checks if a number is greater than 10.
-// let num = 11;
-// if (num > 10) {
-//     console.log("Greater than 10")
+// ---------------- falsy values ------------------------------
+// false, 0, -0, undefined, NaN, "", null, BigInt on
+
+// const values = [0, 1, "", "Hello", null, undefined, "0", [], {}];
+// const truthy = values.filter(Boolean);
+// console.log(truthy);
+
+
+// 10.Write a condition that checks whether an object or an array is truthy or falsy in an if statement.
+
+// if ({}) console.log("Object is truthy");
+// if ([]) console.log("Array is truthy");
+
+
+// 11.Use the Nullish Coalescing Operator (??) to assign a default value of "Guest" when a variable username is null or undefined.
+
+// const userName = null ?? undefined ?? "Guest"
+// console.log(userName);
+
+
+// 12.Explain the difference between || (OR) and ?? (Nullish Coalescing) with a short code example.
+
+// console.log(0 || "Default");   
+// console.log(0 ?? "Default");   
+
+// || treats falsy values (like 0, "") as false.
+// ?? only checks for null or undefined.
+
+
+// 13.Use ?? to return the first non-null/undefined value from this chain:
+// const val = "Default" ?? null ?? undefined ;
+// console.log(val);
+
+
+
+// 14.Write a ternary operator that prints "Adult" if age >= 18, otherwise prints "Minor".
+
+// const age = 11
+// age >= 18 ? console.log(`Adult`) : console.log(`Minor`);
+
+
+// 🔵 Advanced Level (15–20)
+
+// 15.Write a ternary expression that checks if the iceTeaPrice is less than or equal to 80, and prints "Affordable" or "Expensive".
+
+// const iceTeaPrice = 40
+// iceTeaPrice <= 80 ? console.log("Affordable") : console.log("Expencive");
+
+// 16.Combine && and || in one statement:
+// If isLoggedIn && hasCard, print "Access Granted".
+// Otherwise, if isLoggedIn || hasGuestPass, print "Limited Access".
+// Else print "No Access".
+
+// const isLoggedIn = false;
+// const hasCard = false;
+// const hasGuestPass = true;
+
+// if (isLoggedIn && hasCard) {
+//   console.log("Access Granted");
+// } else if (isLoggedIn || hasGuestPass) {
+//   console.log("Limited Access");
 // } else {
-//     console.log("not greater than 10");
-    
+//   console.log("No Access");
 // }
 
 
-//........................06.................
-//Write a program to find the largest of two numbers.
-// let num1 = 11;
-// let num2 = 9;
-// if (num1 > num2) {
-//     console.log(num1 +" is largest number");
-// } else if (num2 > num1) {
-//     console.log(num2 + " is largest number");
+// 17.Use a switch statement to print "Weekend" for days 0 (Sunday) and 6 (Saturday), and "Weekday" for others.
+
+// const dayNo = 6
+// switch (dayNo) {
+//     case 0:
+//         console.log(`Its Sunday`)
+//         break;
+//     case 1:
+//         console.log(`Its Monday`)
+//         break;
+//     case 2:
+//         console.log(`Its Tuesday`)
+//         break;
+//     case 3:
+//         console.log(`Its Wednesday`)
+//         break;
+//     case 4:
+//         console.log(`Its Thrusday`)
+//         break;
+//     case 5:
+//         console.log(`Its Friday`)
+//         break;
+//     case 6:
+//         console.log(`Its Saturday`)
+//         break;
+
+//     default:
+//         console.log(`Weekend`)
+//         break;
 // }
 
+// 18.Write a function checkDiscount(price) that uses a ternary operator:
+// If price > 500, return "Eligible for discount".
+// Else return "No discount".
 
-//..................07....................
-//Write a program to check whether a given year is a leap year or not.
-// let year = 1900;
-// if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-//     console.log(year + " is leap year");
-// } else {
-//     console.log(year + " is not leap year");
-    
+// function checkDiscount(price) {
+//     price > 500 ? console.log(`Eligible for discount`) : console.log(`not discount`)
 // }
+// checkDiscount(300)
 
 
-//............................08......................
-//Write a program that checks if a character is a vowel or consonant.
-// let char = "u";
-// if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u" ) {
-//     console.log("is voiwel");
-// } else {
-//     console.log("is a consonant")
-// }
+// 19.Use a mix of ??, ||, and && to safely get a user’s name from nested variables:
+const user = {
+  profile: { name: null }
+};
+const name = user?.profile?.name ?? "Anonymous";
+console.log(name);
+// (Question: What will this print and why?)
 
 
 
-//............................09..........................
-//Write a program to check if a number is divisible by both 3 and 5.
-// let num = 25;
-// if (num % 3 == 0 && num % 5 == 0) {
-//     console.log("is devisible by 3 and 5");
-// } else {
-//     console.log("not devisible");
-    
-// }
+// 20.Write a code snippet that shows the difference between == and === by comparing:
 
-
-//.......................10........................
-//Write a program that takes a temperature value and prints whether it’s hot (>30°C) or cold (≤30°C).
-// let temp = 20;
-// if(temp > 30 ) {
-//     console.log("it is hot");
-    
-// } else {
-//     console.log("it is cold");
-    
-// }
-
-
-//.............................11............................
-//Write a program that takes marks as input and prints the grade:
-// 90–100: A
-// 80–89: B
-// 70–79: C
-// 60–69: D
-// below 60: F
-
-// let marks = 59;
-// if (marks >= 90 && marks <= 100 ){
-//     console.log("Grade A");
-// } else if (marks >= 80 && marks <= 89) {
-//     console.log("Grade B")
-// } else if (marks >= 70 && marks <= 79) {
-//     console.log("Grade C");
-// } else if (marks >= 60 && marks <= 69) {
-//     console.log("Grade D");
-// } else {
-//     console.log("Grade F");   
-// }
-
-
-//...................12.............................
-//Write a program to find the largest among three numbers.
-
-// let num1 = 22;
-// let num2 = 87;
-// let num3 = 92;
-
-// if (num2 < num1 && num3 < num1) {
-//     console.log(num1 + " is largest number")
-// } else if (num1 < num2 && num3 < num2) {
-//     console.log(num2 + " is largest number")
-// } else if (num1 < num3 && num2 < num3) {
-//     console.log(num3 + " is largest number")
-// }
-
+console.log(0 == false);
+console.log(0 === false);
