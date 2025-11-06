@@ -35,7 +35,7 @@ function loginUserMessage (username) {
 function calculateCartPrice(...num1) {
     return num1
 }
-// console.log(calculateCartPrice(2000,300,4222,4323));
+console.log(calculateCartPrice(2000,300,4222,4323));
 
 
 const user = {
