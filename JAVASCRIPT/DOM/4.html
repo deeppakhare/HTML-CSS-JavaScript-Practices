@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep our Code | DOM</title>
+</head>
+<body style="background-color: #212121; color: #ffff">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage (langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("Python")
+    addLanguage("Typescript")   
+
+    function addOptiLanguage (langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        docuent.querySelector('.language').appendChild(li)
+    }
+    addLanguage("HTML")
+    addLanguage("CSS")
+
+    // Edit
+    const secondLang = document.querySelector('li:nth-child(2)')
+    console.log(secondLang)
+    // secondLang.innerHTML = "Ruby"
+    const newLi = document.createElement('li')
+    newLi.textContent = "Ruby"
+    secondLang.replaceWith(newLi)
+    
+    // Edit example
+    const firstLang = document.querySelector('li')
+    firstLang.outerHTML = '<li>Java Script</li>'
+
+    // remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+</script>
+</html>
