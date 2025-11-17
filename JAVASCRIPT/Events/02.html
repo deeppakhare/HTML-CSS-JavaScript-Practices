@@ -10,9 +10,17 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    function (){
-        console.log(``)
+    const sayDeep = function (){
+        console.log(`Deep`)
     }
-    setTimeout(, 2000)
+     const changeText = function () {
+        document.querySelector('h1').innerHTML = " Javascript Async"
+     }
+    const changeMe = setTimeout(changeText, 2000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log("Stopped")
+    })
 </script>
 </html>
