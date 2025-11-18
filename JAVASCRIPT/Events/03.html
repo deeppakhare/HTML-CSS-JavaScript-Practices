@@ -12,21 +12,21 @@
 </body>
 <script>
     let intervalId = null;
-
-    const sayDate = (msg) => console.log(msg, Date.now());
-
-    document.querySelector("#start").addEventListener("click", function () {
+    const sayDate = function (str){
+        console.log(str, Date.now())
+    }
+    
+    document.querySelector('#start').addEventListener('click', function(){
         if (!intervalId) {
-            intervalId = setInterval(() => sayDate("Hi"), 1000);
-            this.textContent = "Stop";  // change button text
-            console.log("started");
-        } else {
+            intervalId = setInterval(sayDate, 1000, "Hi");
+            console.log(`started`)
+        } 
+    });
+    document.querySelector('#stop').addEventListener('click', function(){
             clearInterval(intervalId);
             intervalId = null;
-            this.textContent = "Start";
-            console.log("stopped");
-        }
+            console.log(`stopped`);
     });
-</script>
 
+</script>
 </html>
