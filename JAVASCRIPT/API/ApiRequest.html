@@ -12,10 +12,20 @@
     cupiditate officia quisquam pariatur perspiciatis tempora ducimus dolorem odio commodi beatae sapiente, nisi sed
     ullam numquam labore laudantium? Labore ullam illum quaerat, eaque iste quos quidem illo, qui aliquam autem nulla
     dolorum veniam repellat!
+    <div>
+        <img id= "profile" src="" alt="">
+        <div id = "following"></div>
+        <div id = "followers"></div>
+    </div>
+        
+    </object>
 </body>
 <script>
     const requestUrl = 'https://api.github.com/users/deeppakhare';
     const xhr = new XMLHttpRequest();
+    const profile = document.getElementById('profile')
+    const followers = document.getElementById('followers')
+    const following = document.getElementById('following')
     xhr.open('GET', requestUrl);
     xhr.onreadystatechange = function (){
         console.log(xhr.readyState)
@@ -24,6 +34,11 @@
             console.log(typeof data)
             console.log(data.followers)
             console.log(data)
+            console.log(data.avatar_url)
+            console.log(data.following)
+            profile.src = data.avatar_url
+            following.innerText = data.following
+            following.innerText = date.followers
         }
     }
     xhr.send();
