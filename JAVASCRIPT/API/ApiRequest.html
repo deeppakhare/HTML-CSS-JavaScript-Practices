@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 80px;
+        }
+        .card img{
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+        }
+    </style>
 </head>
 
 <body style="color: #212121;">
@@ -12,12 +27,17 @@
     cupiditate officia quisquam pariatur perspiciatis tempora ducimus dolorem odio commodi beatae sapiente, nisi sed
     ullam numquam labore laudantium? Labore ullam illum quaerat, eaque iste quos quidem illo, qui aliquam autem nulla
     dolorum veniam repellat!
-    <div>
-        <img id= "profile" src="" alt="">
-        <div id = "following"></div>
-        <div id = "followers"></div>
+    <div class="card">
+        <img id="profile" src="" alt="">
+        <h1 id="name"></h1>
+        <p>Followings are :-
+            <span id="following"></span>
+        </p>
+        <p>Followers are :- 
+            <span id="followers"></span>
+        </p>
     </div>
-        
+
     </object>
 </body>
 <script>
@@ -26,8 +46,9 @@
     const profile = document.getElementById('profile')
     const followers = document.getElementById('followers')
     const following = document.getElementById('following')
+    const name = document.getElementById('name')
     xhr.open('GET', requestUrl);
-    xhr.onreadystatechange = function (){
+    xhr.onreadystatechange = function () {
         console.log(xhr.readyState)
         if (xhr.readyState === 4) {
             const data = JSON.parse(this.responseText)
@@ -36,11 +57,14 @@
             console.log(data)
             console.log(data.avatar_url)
             console.log(data.following)
+            console.log(data.name)
             profile.src = data.avatar_url
             following.innerText = data.following
-            following.innerText = date.followers
+            followers.innerText = data.followers
+            name.innerText = data.name
         }
     }
     xhr.send();
 </script>
+
 </html>
