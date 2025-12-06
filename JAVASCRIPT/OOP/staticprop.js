@@ -26,5 +26,6 @@ const iphone = new Teacher("iphone", "i@phone.com")
 // iphone.logMe();
 console.log(iphone.createId());
 console.log(`fg`);
+console.log(`fg`);
 
 
