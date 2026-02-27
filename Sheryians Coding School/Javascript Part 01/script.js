@@ -6,13 +6,33 @@
 
 
 function calc(a, b, operator) {
-    let result =  a + operator 
-
-    console.log(result);
+    let result ;
     
+    switch (operator) {
+        case '+':
+            result =  a + b;
+            break;
+        case '-':
+            result =  a - b;
+            break;
+        case '*':
+            result =  a * b;
+            break;  
+        case '/':
+            if (b === 0) {
+                result =  "Invalid"
+            } else {
+                result =  a / b;
+            } 
+            break;
+        default: 
+            "Invalid"
+            break;
+    }
+    return result
 }
 
-console.log(calc(2, 3, +));
+console.log(calc(2, 0, '/'));
 
 
 
