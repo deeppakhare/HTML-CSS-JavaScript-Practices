@@ -91,7 +91,7 @@
 
 
 //     if (userTerm === computerTerm ) return "Tie"
-    
+
 //     if (userTerm === "rock" && computerTerm === "seasor") return "User win";
 //     if (userTerm === "paper" && computerTerm === "rock") return "User win";
 //     if (userTerm === "seasor" && computerTerm === "paper") return "User win"
@@ -105,13 +105,107 @@
 //   ************* for loop ************
 
 // 1-100 print
+//  for loop ->
 // for (let i = 1; i <= 100; i++) {
 //     console.log(i);    
 // }
 
-let i = 1;
-while (i <= 30) {
-    console.log(i);
-    i++;
-}
+// while loop ->
+// let i = 1;
+// while (i <= 30) {
+//     console.log(i);
+//     i++;
+// }
 
+
+// do while loop
+// let i = 13;
+// do {
+//     console.log(i);
+//     i++;
+// }
+// while(i <= 45)
+
+
+// break 
+// for (let i = 1; i < 101; i++) {
+//     console.log(i);
+//     if (i === 32) {
+//         break;
+//     }
+// }
+
+// continue
+// for (let i = 1; i < 20; i++) {
+//     if (i === 12) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// Q. print numbers from 10 to 1 using while 
+// for(let i = 10;i >= 1; i--) {
+//     console.log(i);
+// }
+
+// let i = 10;
+// while(i >= 1) {
+//     console.log(i);
+//     i--;
+// }
+
+
+// Q Print even number from 1 to 20 using for loop
+// for (let i = 1; i <= 20; i ++) {
+//     if (i%2 == 0) {
+//         console.log(i);
+//     }  
+// }
+
+// let i = 1;
+// while(i <= 20){
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+
+//  Q. print odd numbers from 1 to 15 usind while loop
+// let i = 0;
+// while (i <= 15) {
+//     if (i % 2 == 1) {
+//         console.log(i);
+//     }
+//     i++
+// }
+
+// for (let i = 0; i <= 15;i ++){
+//     if( i%2 == 1) {
+//         console.log(i);
+//     }
+// }
+
+// Q. print table of 5
+// for (let i = 1; i <= 10; i ++) {
+//     let j = 5;    
+//     // let c = i * j;
+//     console.log(`${j} * ${i} = ${i * j}`);
+// }
+
+// Q. find sum of numbers from 1 to 100 using loop
+// let sum = 0;
+// for(let i = 1; i <= 100; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+// let sum = 0;
+// let i = 1;
+// while(i <= 100){
+//     sum = sum + i;
+//     i++;
+// }
+// console.log(sum);
+
+// Q. 
