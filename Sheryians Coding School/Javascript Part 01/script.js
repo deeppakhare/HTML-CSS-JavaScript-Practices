@@ -77,25 +77,41 @@
 
 // *********  Rock - Paper - Seasor Logic  ***************
 
-function rps(userTerm, computerTerm) {
-    // if (userTerm === "rock" && computerTerm === "seasor") return "User win"
-    // if (userTerm === "rock" && computerTerm === "paper") return "Computer win"
-    // if (userTerm === "rock" && computerTerm === "rock") return "Tie match"
-    // if (userTerm === "paper" && computerTerm === "paper") return "Tie match"
-    // if (userTerm === "paper" && computerTerm === "seasor") return "Computer win"
-    // if (userTerm === "paper" && computerTerm === "rock") return "User win"
-    // if (userTerm === "seasor" && computerTerm === "rock") return "Computer win"
-    // if (userTerm === "seasor" && computerTerm === "paper") return "User win"
-    // if (userTerm === "seasor" && computerTerm === "seasor") return "Tie"
-    // return "check input"
+// function rps(userTerm, computerTerm) {
+//     // if (userTerm === "rock" && computerTerm === "seasor") return "User win"
+//     // if (userTerm === "rock" && computerTerm === "paper") return "Computer win"
+//     // if (userTerm === "rock" && computerTerm === "rock") return "Tie match"
+//     // if (userTerm === "paper" && computerTerm === "paper") return "Tie match"
+//     // if (userTerm === "paper" && computerTerm === "seasor") return "Computer win"
+//     // if (userTerm === "paper" && computerTerm === "rock") return "User win"
+//     // if (userTerm === "seasor" && computerTerm === "rock") return "Computer win"
+//     // if (userTerm === "seasor" && computerTerm === "paper") return "User win"
+//     // if (userTerm === "seasor" && computerTerm === "seasor") return "Tie"
+//     // return "check input"
 
 
-    if (userTerm === computerTerm ) return "Tie"
+//     if (userTerm === computerTerm ) return "Tie"
     
-    if (userTerm === "rock" && computerTerm === "seasor") return "User win";
-    if (userTerm === "paper" && computerTerm === "rock") return "User win";
-    if (userTerm === "seasor" && computerTerm === "paper") return "User win"
-    return "Computer win"
+//     if (userTerm === "rock" && computerTerm === "seasor") return "User win";
+//     if (userTerm === "paper" && computerTerm === "rock") return "User win";
+//     if (userTerm === "seasor" && computerTerm === "paper") return "User win"
+//     return "Computer win"
+// }
+
+// console.log(rps("rock", "paper"));
+
+
+
+//   ************* for loop ************
+
+// 1-100 print
+// for (let i = 1; i <= 100; i++) {
+//     console.log(i);    
+// }
+
+let i = 1;
+while (i <= 30) {
+    console.log(i);
+    i++;
 }
 
-console.log(rps("rock", "paper"));
