@@ -77,6 +77,25 @@
 
 // *********  Rock - Paper - Seasor Logic  ***************
 
-function getResult(userTerm, computerTerm) {
-    if 
+function rps(userTerm, computerTerm) {
+    // if (userTerm === "rock" && computerTerm === "seasor") return "User win"
+    // if (userTerm === "rock" && computerTerm === "paper") return "Computer win"
+    // if (userTerm === "rock" && computerTerm === "rock") return "Tie match"
+    // if (userTerm === "paper" && computerTerm === "paper") return "Tie match"
+    // if (userTerm === "paper" && computerTerm === "seasor") return "Computer win"
+    // if (userTerm === "paper" && computerTerm === "rock") return "User win"
+    // if (userTerm === "seasor" && computerTerm === "rock") return "Computer win"
+    // if (userTerm === "seasor" && computerTerm === "paper") return "User win"
+    // if (userTerm === "seasor" && computerTerm === "seasor") return "Tie"
+    // return "check input"
+
+
+    if (userTerm === computerTerm ) return "Tie"
+    
+    if (userTerm === "rock" && computerTerm === "seasor") return "User win";
+    if (userTerm === "paper" && computerTerm === "rock") return "User win";
+    if (userTerm === "seasor" && computerTerm === "paper") return "User win"
+    return "Computer win"
 }
+
+console.log(rps("rock", "paper"));
