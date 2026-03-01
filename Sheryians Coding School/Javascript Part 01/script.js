@@ -190,7 +190,7 @@
 // for (let i = 1; i <= 10; i ++) {
 //     let j = 5;    
 //     // let c = i * j;
-//     console.log(`${j} * ${i} = ${i * j}`);
+//     console.log(`${j} X ${i} = ${i * j}`);
 // }
 
 // Q. find sum of numbers from 1 to 100 using loop
@@ -208,4 +208,79 @@
 // }
 // console.log(sum);
 
-// Q. 
+// Q. print all numbers between 1 to 50 that are divisible by 3;
+// for (let i = 1; i <= 50; i++) {
+//     if(i % 3 == 0) {
+//         console.log(i);
+//     }
+// }
+
+//  Q. Ask user for a number and print 
+// whether each number from 1 to that 
+// number is even or odd
+
+// let val = prompt("give a number");
+
+// for(i = 1;i <= val; i++) {
+//     if(i % 2 === 0) {
+//         console.log(`${i} is even number`)
+//     } else {
+//         console.log(`${i} is odd number`)
+//     }
+// }
+
+
+// Q. Count how many numbers between 1 to 100
+// divisible by both 3 and 5
+
+// for(let i = 1;i <= 100;i++) {
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(i)
+//     }
+// }
+
+
+// Q.1. Stop at First Multiple of 7
+// Write a loop from 1 to 100 that:
+// -- Prints each number
+// -- Stops completely when it finds the first number divisible by 7
+
+// for(let i = 1; i <= 100; i++) {
+//     console.log(i);
+//     if(i % 7 === 0){
+//         break;
+//     }
+// }
+
+
+// Q.2. Skip Multiple of 3
+// Write a loop from 1 to 20 that:
+// -- Skips number divisible by 3
+// -- Prints all numbers
+
+// for(let i = 0; i <= 20; i++) {
+//     if(i % 3 === 0){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+// Q.5 Print First 5 odd numbers only 
+// write loop from 1 to 100
+
+// let count = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 1) {
+//         count ++;
+//         console.log(i);
+//     }
+//     if (count === 5) break;
+// }
+
+
+// Reverse the string using loop
+let name = "deep"
+for(let i = 0; i <= ){
+    
+}
