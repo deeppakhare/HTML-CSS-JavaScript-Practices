@@ -309,23 +309,3 @@
 
 
 
-// Print the trangle pattern using *
-// for(let i = 1;i <= 6; i++){
-//     for(let j = 1;j <= 6;j++){
-
-//         console.log(`*`);
-//         console.log(`*`);
-//     }
-// }
-
-
-
-// Sum of even numbers in an array using forEach
-let arr = [2, 3, 7, 4, 10, 11, 22];
-let sum = 0;
-arr.forEach((num) => {
-    if(num % 2 === 0){
-        sum = sum + num;
-    }
-})
-console.log(sum);
