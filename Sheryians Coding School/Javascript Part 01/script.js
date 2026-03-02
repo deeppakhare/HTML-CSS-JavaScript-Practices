@@ -280,6 +280,22 @@
 
 
 // Reverse the string using loop
+// Using for ... of loop
+
+// let str = "Hopper"
+// let reverse = ""
+// for (let ch of str) {
+//     reverse = ch + reverse;
+// }
+// console.log(reverse);
+
+
+// let firstName = "STEVE";
+// let reversed = ""
+// for(let val of firstName){
+//     reversed = val + reversed;
+// }
+// console.log(reversed);
 
 
 
@@ -305,27 +321,105 @@
 // }
 
 // Guess number game - use while to ask until correct
+// let number = 6;
+// let guess = null;
 
+// while(guess !== number) {
+//     guess = Number(prompt("Guess number in between 1 to 10"));
+//     if(guess === number){
+//         alert("It is correct");
+//     } else {
+//         alert("It is wrong");
+//     }
+// }
 
-
-
-// Print the trangle pattern using *
-// for(let i = 1;i <= 6; i++){
-//     for(let j = 1;j <= 6;j++){
-
-//         console.log(`*`);
-//         console.log(`*`);
+// let number = 8;
+// let guess = null;
+// while(guess !== number) {
+//     guess = Number(prompt("Guess number in between 1 to 10"));
+//     if(guess === number) {
+//         alert("You are correct")
+//     } else {
+//         alert("Try again")
 //     }
 // }
 
 
+// Print the trangle pattern using *
+// let rows = 5;
+// for(let i = 1;i <= rows; i++) {
+//     let star = "";
+
+//     for(let j = 1;j <= i; j++){
+//         star = star + "*";
+//     }
+//     console.log(star);
+// }
+    
+
+// let rows = 5;
+// for(let i = 1;i <= rows; i++) {
+//     let space = "";
+//     let star = "";
+
+//     for(let j = 1;j <= rows - i; j++){
+//         space = space + " ";
+//     }
+
+//     for(let k = 1; k <= i; k++){
+//         star += "*";
+//     }
+//     console.log(space + star);
+    
+// }
+
+
+
 
 // Sum of even numbers in an array using forEach
-let arr = [2, 3, 7, 4, 10, 11, 22];
-let sum = 0;
-arr.forEach((num) => {
-    if(num % 2 === 0){
-        sum = sum + num;
-    }
-})
-console.log(sum);
+// let arr = [2, 3, 7, 4, 10, 11, 22];
+// let sum = 0;
+// arr.forEach((num) => {
+//     if(num % 2 === 0){
+//         sum = sum + num;
+//     }
+// })
+// console.log(sum);
+
+// let arr = [2, 3, 5, 6, 8, 9];
+// let sum = 0;
+// arr.forEach((num) => {
+//     if(num % 2 === 0) return sum = num + sum;
+// })
+// console.log(sum);
+
+
+// Print numbers from 100 to 1
+// for(let i = 10;i >= 1;i--){
+//     console.log(i);
+// }
+
+
+// Print sum of numbers from 1 to 100
+// let sum = 0;
+// for(let i = 1;i <= 100; i++) {
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+// Print multiplication table of 2
+// let mul = 9898345
+// for(let i = 1; i <= 10; i++){
+//     console.log(`${mul} X ${i} = ${i*mul}`);
+// }
+
+
+// find factorial of number
+// 5 X 4 X 3 X 2 X 1 = 120
+// let fact = 1;
+// for(let i = 5; i >= 1; i--){
+//     fact = fact * i;
+// }
+// console.log(fact);
+
+
