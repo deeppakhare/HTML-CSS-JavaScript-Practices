@@ -414,5 +414,48 @@
 // }
 
 
+// find factorial of number
+// 5 X 4 X 3 X 2 X 1 = 120
+// let fact = 1;
+// for(let i = 5; i >= 1; i--){
+//     fact = fact * i;
+// }
+// console.log(fact);
+
+
+// reverse a number 12345
+let num = 12345
+let reverse = 0;
+while(num > 0) {
+    let lastDigit = num % 10;
+
+    reverse = 10 * reverse + lastDigit;
+
+    num = Math.floor(num / 10);
+
+}
+
+console.log(reverse);
+
+
+
+
+// Count digits in a number
+
+
+
+
+// Print number trangle
+// let rows = 5
+// for(let i = 1; i <= rows; i++){
+//     let space = "";
+//     for (let j = 1; j <= i; j++){
+//         space = space + j // + "*"
+//     }
+//     console.log(space);
+// }
+
+
+// Check the prime number 
 
 
