@@ -299,6 +299,51 @@
 
 
 
+// Sum of all numbers in an array
+// let nums = [20, 13, 42];
+// let sum = 0;
+// nums.forEach((num) => {
+//     console.log(num);
+//     sum = sum + num;
+// })
+// console.log(sum);
+
+
+// Print all characters of a name using for of
+// for(let name of "Maxwell"){
+//     console.log(name);
+// } 
+
+// Print all object keys and values using for-in
+// let user = {firstName: "Deep",lastName: "Pakhare"}
+// for (let key in user) {
+//     console.log(`Object key is:- '${key}' and value is:- '${user[key]}'`);
+// }
+
+// Guess number game - use while to ask until correct
+// let number = 6;
+// let guess = null;
+
+// while(guess !== number) {
+//     guess = Number(prompt("Guess number in between 1 to 10"));
+//     if(guess === number){
+//         alert("It is correct");
+//     } else {
+//         alert("It is wrong");
+//     }
+// }
+
+// let number = 8;
+// let guess = null;
+// while(guess !== number) {
+//     guess = Number(prompt("Guess number in between 1 to 10"));
+//     if(guess === number) {
+//         alert("You are correct")
+//     } else {
+//         alert("Try again")
+//     }
+// }
+
 
 // Print the trangle pattern using *
 // let rows = 5;
