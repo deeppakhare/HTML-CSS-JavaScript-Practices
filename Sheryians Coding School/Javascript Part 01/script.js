@@ -171,27 +171,7 @@
 // }
 
 
-//  Q. print odd numbers from 1 to 15 usind while loop
-// let i = 0;
-// while (i <= 15) {
-//     if (i % 2 == 1) {
-//         console.log(i);
-//     }
-//     i++
-// }
 
-// for (let i = 0; i <= 15;i ++){
-//     if( i%2 == 1) {
-//         console.log(i);
-//     }
-// }
-
-// Q. print table of 5
-// for (let i = 1; i <= 10; i ++) {
-//     let j = 5;    
-//     // let c = i * j;
-//     console.log(`${j} X ${i} = ${i * j}`);
-// }
 
 // Q. find sum of numbers from 1 to 100 using loop
 // let sum = 0;
