@@ -467,30 +467,4 @@
 // }
 
 
-// Check the palindrome number
-// Palindrome number mhanje jya number la reversed kelya var te original number sarkha diste;
-// let originalNumber = 1213
-// let num = originalNumber;
-// let reversed = 0;
-// while(num > 0){
-//     let lastDigit = num % 10;
-
-//     reversed = 10 * reversed + lastDigit;
-
-//     num = Math.floor(num / 10);
-// } 
-// if (originalNumber === reversed) {console.log(`The num ${originalNumber} is palindrome number.`);}
-// else {console.log(`The number is not palindrome.`)}
-
-
-// find largest number in array
-let arr = [21, 33, 10 , 4, 12, 8, 10, 44];
-let largest = arr[0];
-for(let i = 1; i < arr.length; i++) {
-    if(arr[i] > largest) {
-        largest = arr[i];
-    }
-}
-console.log(largest);
-
 
