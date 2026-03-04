@@ -424,28 +424,39 @@
 
 
 // reverse a number 12345
-let num = 12345
-let reverse = 0;
-while(num > 0) {
-    let lastDigit = num % 10;
+// let num = 12345;
+// let reverse = 0;
+// while (num > 0) {
+//     let lastDigit = num % 10;
 
-    reverse = 10 * reverse + lastDigit;
+//     reverse = 10 * reverse + lastDigit;
 
-    num = Math.floor(num / 10);
-
-}
-
-console.log(reverse);
-
+//     num = Math.floor(num / 10);
+// }
+// console.log(reverse);
 
 
 
 // Count digits in a number
-
-
+// let num = 4332222222222;
+// let count = 0;
+// while(num > 0) {
+//     count ++;
+//     num = Math.floor(num / 10);
+// }
+// console.log(count);
 
 
 // Print number trangle
+// let rows = 5;
+// for(let i = 0; i <= rows; i++) {
+//     let space = "";
+//     for(let j = 0;j <= i; j++){
+//         space = space + "*";  // + j
+//     }
+//     console.log(space);
+// }
+
 // let rows = 5
 // for(let i = 1; i <= rows; i++){
 //     let space = "";
@@ -456,6 +467,30 @@ console.log(reverse);
 // }
 
 
-// Check the prime number 
+// Check the palindrome number
+// Palindrome number mhanje jya number la reversed kelya var te original number sarkha diste;
+// let originalNumber = 1213
+// let num = originalNumber;
+// let reversed = 0;
+// while(num > 0){
+//     let lastDigit = num % 10;
+
+//     reversed = 10 * reversed + lastDigit;
+
+//     num = Math.floor(num / 10);
+// } 
+// if (originalNumber === reversed) {console.log(`The num ${originalNumber} is palindrome number.`);}
+// else {console.log(`The number is not palindrome.`)}
+
+
+// find largest number in array
+let arr = [21, 33, 10 , 4, 12, 8, 10, 44];
+let largest = arr[0];
+for(let i = 1; i < arr.length; i++) {
+    if(arr[i] > largest) {
+        largest = arr[i];
+    }
+}
+console.log(largest);
 
 
