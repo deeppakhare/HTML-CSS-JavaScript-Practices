@@ -636,6 +636,21 @@
 // console.log(`${gcd} is GCD of ${a} & ${b}`);
 
 
+// Fing Least Common Multiple (LCM)
+// let a = 12;
+// let b = 18;
+// let gcd = 1;
+// for(let i = 0; i <= a && i <= b; i++) {
+//     if(a % i === 0 && b % i === 0) {
+//         gcd = i;
+//     }
+
+// }
+// console.log(`GCD is ${gcd}`);
+// let lcm = (a * b) / gcd;
+// console.log(`LCM of given two numbers is ${lcm}`);
+
+
 
 
 
