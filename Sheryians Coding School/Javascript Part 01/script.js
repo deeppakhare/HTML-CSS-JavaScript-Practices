@@ -355,7 +355,7 @@
 //     }
 //     console.log(star);
 // }
-    
+
 
 // let rows = 5;
 // for(let i = 1;i <= rows; i++) {
@@ -370,7 +370,7 @@
 //         star += "*";
 //     }
 //     console.log(space + star);
-    
+
 // }
 
 
@@ -447,6 +447,17 @@
 // console.log(count);
 
 
+// let number = 2345666;
+// let count = 0;
+// while(number > 0) {
+//     count++;
+//     number = Math.floor(number / 10)
+
+// }
+// console.log(count);
+
+
+
 // Print number trangle
 // let rows = 5;
 // for(let i = 0; i <= rows; i++) {
@@ -483,14 +494,148 @@
 // else {console.log(`The number is not palindrome.`)}
 
 
+// let originalNum =  223343243322;
+// let num = originalNum;
+// let reversed = 0;
+// while(num > 0){
+//     let lastDigit = num % 10;
+//     reversed = 10 * reversed + lastDigit;
+//     num = Math.floor(num / 10);
+// }
+// if(reversed === originalNum) return console.log(`It is palindrome`);
+// else return console.log(`It is not palindrome`);
+
+
+
 // find largest number in array
-let arr = [21, 33, 10 , 4, 12, 8, 10, 44];
-let largest = arr[0];
-for(let i = 1; i < arr.length; i++) {
-    if(arr[i] > largest) {
-        largest = arr[i];
-    }
-}
-console.log(largest);
+// let arr = [21, 33, 10 , 4, 12, 8, 10, 44];
+// let largest = arr[0];
+// for(let i = 1; i < arr.length; i++) {
+//     if(arr[i] > largest) {
+//         largest = arr[i];
+//     }
+// }
+// console.log(largest);
+
+
+
+// Print febonacci series 
+// let n = 8;
+// let a = 0;
+// let b = 1;
+
+// console.log(a);
+// console.log(b);
+
+// for(let i = 3; i <= n; i++){
+//     let next = a + b;
+//     console.log(next);
+//     a = b;
+//     b = next;
+// }
+
+
+// let n = 6;
+// let a = 0;
+// let b = 1;
+
+// console.log(a);
+// console.log(b);
+
+// for(let i = 3; i <= n; i++){
+//     let next = a + b;
+//     console.log(next);
+//     a = b;
+//     b = next;
+
+// }
+
+
+
+//  Check number is prime number 
+// let num = 7;
+// let isPrime = true;
+// for(let i = 2; i < num; i++) {
+//     if(num % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+
+// if(isPrime && num > 1) return console.log("Is prime");
+// else return console.log("not prime")
+
+// let num = 8;
+// let isPrime = true;
+// for(let i = 2; i < num; i++) {
+//     if(num % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+// if(isPrime && num > 1) return console.log("It is prime number");
+// else console.log("It is not prime number")
+
+// let num = 19;
+// let isPrime = true;
+// for(let i = 2; i < num; i++){
+//     if(num % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+// if(isPrime && num > 1){
+//     console.log("is prime number");
+
+// } else {
+//     console.log("is not prime");
+
+// }
+
+// Print prime number from 1 to 100.
+
+// for(let num = 2; num <= 100;  num++) {
+//     let isPrime = true;
+//     for(let i = 2; i < num; i++) {
+//         if(num % i === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if (isPrime && num > 1) {
+//         console.log(`The prime numbers are ${num}`);
+
+//     }
+// }
+
+
+// for(let num = 2; num <= 100; num++){
+//     isPrime = true;
+//     for(let i = 2;i < num; i++){
+//         if(num % i === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if(isPrime && num > 1) {
+//         console.log(num);
+// }
+// }
+
+
+
+// find Greatest Common Divisor(GCD) of two numbers;
+// let a = 12;
+// let b = 18;
+// let gcd = 1;
+// for(let i = 0; i <= a && i <= b; i++) {
+//     if(a % i === 0 && b % i === 0) {
+//     gcd = i
+//     }
+// }
+// console.log(`${gcd} is GCD of ${a} & ${b}`);
+
+
+
 
 
