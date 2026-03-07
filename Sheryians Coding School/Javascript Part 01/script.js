@@ -686,19 +686,3 @@
 // console.log(arr2);
 
 
-// Count vowels in the string
-// let sentence = "anything";
-// let count = 0;
-// for(let char of sentence){
-//     if(char === "a" ||
-//         char === "e" ||
-//         char === "i" ||
-//         char === "o" ||
-//         char === "u" 
-//     ) {
-//         count++;
-//     } 
-// }
-// console.log(count);
-
-
