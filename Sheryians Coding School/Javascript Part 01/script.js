@@ -669,3 +669,44 @@
 // console.log(arr2);
 
 
+// let arr = [2,3,5,6,7,8,3,2,1,9,5,6,7,2,3,3];
+// let arr2 = [];
+// for(let i = 0;i<=arr.length;i++){
+//     let found = false;
+//     for(let j = 0;j<= arr2.length;j++){
+//         if(arr[i] === arr2[j]){
+//             found = true;
+//             break;
+//         }
+//     }
+//     if(!found){
+//         arr2.push(arr[i]);
+//     }
+// }
+// console.log(arr2);
+
+
+// Count vowels in the string
+// let sentence = "anything";
+// let count = 0;
+// for(let char of sentence){
+//     if(char === "a" ||
+//         char === "e" ||
+//         char === "i" ||
+//         char === "o" ||
+//         char === "u" 
+//     ) {
+//         count++;
+//     } 
+// }
+// console.log(count);
+
+
+// function higher(){
+//     return function(){
+//         console.log("deep");
+        
+//     }
+// }
+// higher()();
+
