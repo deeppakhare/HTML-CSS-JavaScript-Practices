@@ -710,3 +710,73 @@
 // }
 // higher()();
 
+
+
+
+// ***********************  FUNCTIONS *****************************
+// Q1. What is difference between function declaration and expression in terms of hoistung;
+// abc();
+// function abc(){
+//     console.log("Hello");
+// }
+
+// Q2. convert function into arrow function
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// let multiply = (a, b) => {
+//     console.log(a * b);
+// }
+// multiply(2, 4);
+
+
+// Q. Use rest parameter to accept any number of score and 
+// return the total
+
+// function getScore(...scores) {
+//     let total = 0;
+//     scores.forEach(function(val){
+//         total = total + val;
+//     });
+//     return total;
+// }
+
+// console.log(getScore(10, 23, 23, 55, 53, 12));
+
+
+// Q. Fix the function using early return
+// function checkAge(age){
+//     if(age < 18){
+//         console.log("Too young");
+//     } else {
+//         console.log("Allowed")
+//     }
+// }
+
+
+// function checkAge(age) {
+//     if (age < 18) return "Too young";
+//     else return "Allowed";
+// }
+// console.log(checkAge(22));
+
+
+// Q  pass a function to another function
+
+// function abc(ef){
+//     ef();
+// }
+// abc(function(){
+//     console.log("hellow world");
+// })
+
+
+// Q. Convert this normal function into an IIFE
+// function init(){
+//     console.log("Initialized");
+// }
+
+(function init(){
+    console.log("Initilized")
+})();
