@@ -777,6 +777,49 @@
 //     console.log("Initialized");
 // }
 
-(function init(){
-    console.log("Initilized")
-})();
+// (function init(){
+//     console.log("Initilized")
+// })();
+
+
+// Q. Write a BMI calculator function
+
+// function bmi(height, weight) {
+//     return weight / (height * height);
+// }
+// console.log(bmi(1.76, 56).toFixed(2));
+
+
+// Q. Create a greet function with default name 
+
+// function greet(msg = "Welcome to my world") {
+//     console.log(msg);
+// }
+// greet();
+
+
+// Q. Sum all numbers using rest parameters
+
+// function sum(...nums){
+//     let total = 0;
+//     nums.forEach(function(num){
+//         total = total + num;
+//     })
+//     return total;
+// }
+// console.log(sum(2, 3, 4, 5, 6, 7, 8, 9, 10));
+
+
+// Q. Create a closure counter function
+
+// function counter(){
+//     let count = 0;
+//     return function(){
+//         count ++;
+//         console.log(count);
+//     }
+// }
+// let counterer = counter();
+// counterer();
+// counterer();
+
