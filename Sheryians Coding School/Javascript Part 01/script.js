@@ -851,9 +851,10 @@
 
 // Q. Use a function to log even numbers in array
 
-function even(...num){
-    num.forEach(val){
-        if (val % 2 === 0) return
-    }
-}
-even(2, 3, 7, 6, 9, 10, 5, 3);
+// function even(...num){
+//     num.forEach(function(val){
+//         if (val % 2 === 0) return console.log(val);
+//     })
+    
+// }
+// console.log(even(2, 3, 7, 6, 9, 10, 5, 3));
