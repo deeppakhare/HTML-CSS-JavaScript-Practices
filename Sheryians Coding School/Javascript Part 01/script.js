@@ -849,3 +849,11 @@
 // console.log("The quatraple of 10 is ",quadraple(10));
 
 
+// Q. Use a function to log even numbers in array
+
+function even(...num){
+    num.forEach(val){
+        if (val % 2 === 0) return
+    }
+}
+even(2, 3, 7, 6, 9, 10, 5, 3);
