@@ -823,3 +823,29 @@
 // counterer();
 // counterer();
 
+
+// Q. Write a function that returns another function
+
+// function abc(){
+//     return function(){
+//         console.log("hello buddy");
+//     }
+// }
+// abc()();
+
+//   OR
+
+// function abc(num){
+//     return function(mul){
+//         return mul * num;
+//     }
+// }
+// let double = abc(2);
+// let triple = abc(3);
+// let quadraple = abc(4);
+
+// console.log("The double of 5 is ",double(5));
+// console.log("The triple of 3 is ",triple(3));
+// console.log("The quatraple of 10 is ",quadraple(10));
+
+
