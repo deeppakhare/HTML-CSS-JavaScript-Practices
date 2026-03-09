@@ -858,3 +858,23 @@
     
 // }
 // console.log(even(2, 3, 7, 6, 9, 10, 5, 3));
+
+// Q. Use IIFE to show welcome message
+
+// (function msg(){
+//     console.log("Welcome to my code")
+// })();
+
+
+// Q. Write a discount calculator (HOF style)
+
+// function calculate(price, discount){
+//     discount = discount / 100;
+//     let discountAmount = price * discount;
+//     price = price + discountAmount;
+//     console.log(price);
+// }
+
+// calculate(1000, 2);
+
+
