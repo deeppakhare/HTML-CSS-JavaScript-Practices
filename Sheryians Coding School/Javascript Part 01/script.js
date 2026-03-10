@@ -868,13 +868,27 @@
 
 // Q. Write a discount calculator (HOF style)
 
-// function calculate(price, discount){
-//     discount = discount / 100;
-//     let discountAmount = price * discount;
-//     price = price + discountAmount;
-//     console.log(price);
+// function discountCalculator(discount){
+//     return function(price){
+//         return price - price * (discount / 100); 
+//     }
 // }
+// let ten = discountCalculator(10);
+// let twenty = discountCalculator(20);
+// let thirty = discountCalculator(30);
+// let fourty = discountCalculator(40);
 
-// calculate(1000, 2);
+// console.log(ten(200));
+// console.log(twenty(100));
+// console.log(thirty(100));
+// console.log(fourty(100));
+
+
+// Q. create a function to transform value
+
+// function double(val){
+//     return val * 2;
+// }
+// console.log(double(5));
 
 
