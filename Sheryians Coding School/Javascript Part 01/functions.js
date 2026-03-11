@@ -95,3 +95,75 @@
 // console.log(palindrome("madam"));
 
 
+// 🟡 Level 2 — Functions with Loops
+
+// Write a function that prints numbers from 1 to n.
+// function printNumbers(n){
+//     for(let i = 1; i <= n; i++){
+//         console.log(i)
+//     }
+// }
+// printNumbers(10);
+
+//          OR
+
+// let printNumbers = (num) => {
+//     for(let i = 1; i <= num ;i++) {
+//         console.log(i);
+//     }
+// }
+// printNumbers(10);
+
+
+// Write a function that prints multiplication table of a number.
+// function table(num){
+//     for(let i = 1; i <= 10; i++){
+//         console.log(`${5} X ${i} = ${i*num}`);
+//     }
+// }
+// table(2);
+
+
+// Write a function that returns sum of numbers from 1 to n.
+// let sumOfNumbers = (num) => {
+//     let sum = 0;
+//     for(i = 1; i <= num; i++){
+//         sum = sum + i;
+//     }
+//     console.log(sum);
+// }
+// sumOfNumbers(10);
+
+
+// Write a function that returns Fibonacci series up to n terms.
+// function fibonacci(num){
+//     let a = 0;
+//     let b = 1;
+//     console.log(a); 
+//     console.log(b);
+//     for(let i = 1; i <= num; i++){
+//         let next = a + b;
+//         console.log(next);
+//         a = b;
+//         b = next;
+//     }
+// }
+// fibonacci(5);
+
+
+// Write a function that checks if a number is prime.
+// function primeNumber(num){
+//     let isPrime = true;
+//     for(i = 2; i < num; i++){
+//         if(num % i === 0){
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if(isPrime && num > 1) {
+//         console.log("is prime number");
+//     } else {
+//         console.log("is not prime number");
+//     }
+// }
+// primeNumber(9);
