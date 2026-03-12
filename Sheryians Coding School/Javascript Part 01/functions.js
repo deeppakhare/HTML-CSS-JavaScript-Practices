@@ -94,7 +94,6 @@
 // }
 // console.log(palindrome("madam"));
 
-
 // 🟡 Level 2 — Functions with Loops
 
 // Write a function that prints numbers from 1 to n.
@@ -114,7 +113,6 @@
 // }
 // printNumbers(10);
 
-
 // Write a function that prints multiplication table of a number.
 // function table(num){
 //     for(let i = 1; i <= 10; i++){
@@ -122,7 +120,6 @@
 //     }
 // }
 // table(2);
-
 
 // Write a function that returns sum of numbers from 1 to n.
 // let sumOfNumbers = (num) => {
@@ -134,36 +131,105 @@
 // }
 // sumOfNumbers(10);
 
-
 // Write a function that returns Fibonacci series up to n terms.
-// function fibonacci(num){
+// function fibonacci(num) {
 //     let a = 0;
 //     let b = 1;
-//     console.log(a); 
+//     console.log(a);
 //     console.log(b);
 //     for(let i = 1; i <= num; i++){
-//         let next = a + b;
-//         console.log(next);
+//         let c = a + b;
+//         console.log(c);
 //         a = b;
-//         b = next;
+//         b = c;
 //     }
 // }
 // fibonacci(5);
 
-
 // Write a function that checks if a number is prime.
-// function primeNumber(num){
+// function prime(num){
 //     let isPrime = true;
-//     for(i = 2; i < num; i++){
+//     for(let i = 2; i < num; i++){
 //         if(num % i === 0){
 //             isPrime = false;
 //             break;
 //         }
 //     }
-//     if(isPrime && num > 1) {
-//         console.log("is prime number");
+//     if(isPrime && num > 1){
+//         console.log(`${num} is prime number`)
 //     } else {
-//         console.log("is not prime number");
+//         console.log(`${num} is not prime number`)
 //     }
 // }
-// primeNumber(9);
+// prime(20);
+
+// Level 3 — Functions with Arrays
+
+// Write a function that returns the largest number in an array.
+// function largestNumber(arr){
+//     let largest = arr[0];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] > largest){
+//             largest = arr[i];
+//         }
+//     }
+//     console.log(`${largest} is largest number`);
+
+// }
+// largestNumber([244, 34, 22, 506, 12, 78, 222]);
+
+// Write a function that returns the smallest number in an array.
+// function smallestNumber(arr){
+//     let smallest = arr[0];
+//     for(let i = 0; i <= arr.length; i++){
+//         if(arr[i] < smallest){
+//             smallest = arr[i];
+//         }
+//     }
+//     console.log(smallest);
+
+// }
+// smallestNumber([244, 34, 2, 506, 12, 78, 222]);
+
+// Write a function that calculates the sum of array elements.
+// function sumOfArray(arr){
+//     let sum = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     console.log(sum);
+
+// }
+// sumOfArray([2, 9, 4, 3, 5, 1, 6]);
+
+// Write a function that counts how many even numbers are in an array.
+// function evenNumber(arr){
+//     let count = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] % 2 === 0){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+
+// }
+// evenNumber([2, 9, 4, 3, 5, 1, 6, 7, 8]);
+
+// Write a function that removes duplicate elements from an array.
+// function duplicates(arr) {
+//   let arr2 = [];
+//   for (let i = 0; i <= arr.length; i++) {
+//     let found = false;
+//     for (let j = 0; j <= arr2.length; j++) {
+//       if (arr[i] === arr2[j]) {
+//         found = true;
+//         break;
+//       }
+//     }
+//     if (!found) {
+//       arr2.push(arr[i]);
+//     }
+//   }
+//   console.log(arr2);
+// }
+// duplicates([2, 6, 4, 3, 2, 1, 6, 3, 7]);
