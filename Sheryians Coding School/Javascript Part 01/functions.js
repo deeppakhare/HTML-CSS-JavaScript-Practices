@@ -215,21 +215,4 @@
 // }
 // evenNumber([2, 9, 4, 3, 5, 1, 6, 7, 8]);
 
-// Write a function that removes duplicate elements from an array.
-// function duplicates(arr) {
-//   let arr2 = [];
-//   for (let i = 0; i <= arr.length; i++) {
-//     let found = false;
-//     for (let j = 0; j <= arr2.length; j++) {
-//       if (arr[i] === arr2[j]) {
-//         found = true;
-//         break;
-//       }
-//     }
-//     if (!found) {
-//       arr2.push(arr[i]);
-//     }
-//   }
-//   console.log(arr2);
-// }
-// duplicates([2, 6, 4, 3, 2, 1, 6, 3, 7]);
+
