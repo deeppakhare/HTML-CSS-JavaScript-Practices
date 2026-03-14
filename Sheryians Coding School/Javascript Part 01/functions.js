@@ -60,13 +60,13 @@
 
 // Write a function that reverses a string.
 // function reverse(string){
-//     let newString = "";
-//     for(let val of string){
-//         newString = val + newString;
+//     reverse = "";
+//     for (let char of string) {
+//         reverse = char + reverse;
 //     }
-//     console.log(newString);
+//     console.log(reverse);
 // }
-// reverse("Deep")
+// reverse("Deep");
 
 // Write a function that counts vowels in a string.
 // function countVowels(string) {
@@ -132,51 +132,51 @@
 // sumOfNumbers(10);
 
 // Write a function that returns Fibonacci series up to n terms.
-// function fibonacci(num) {
+// function fibonacci(num){
 //     let a = 0;
 //     let b = 1;
 //     console.log(a);
 //     console.log(b);
 //     for(let i = 1; i <= num; i++){
-//         let c = a + b;
+//         c = a + b;
 //         console.log(c);
 //         a = b;
 //         b = c;
 //     }
 // }
-// fibonacci(5);
+// fibonacci(4);
 
 // Write a function that checks if a number is prime.
-// function prime(num){
-//     let isPrime = true;
-//     for(let i = 2; i < num; i++){
-//         if(num % i === 0){
-//             isPrime = false;
-//             break;
-//         }
+// function prime(num) {
+//   let isPrime = true;
+//   for (let i = 2; i < num; i++) {
+//     if (num % 2 === 0) {
+//       isPrime = false;
+//       break;
 //     }
-//     if(isPrime && num > 1){
-//         console.log(`${num} is prime number`)
-//     } else {
-//         console.log(`${num} is not prime number`)
-//     }
+//   }
+//   if (isPrime && num > 1) {
+//     console.log(`${num} is prime number`);
+//   } else {
+//     console.log(`${num} is not prime number`);
+//   }
 // }
-// prime(20);
+// prime(17);
 
 // Level 3 — Functions with Arrays
 
 // Write a function that returns the largest number in an array.
 // function largestNumber(arr){
 //     let largest = arr[0];
-//     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] > largest){
+//     for(let i = 0; i <= arr.length; i++){
+//         if(arr[i] > arr[0]) {
 //             largest = arr[i];
 //         }
+        
 //     }
-//     console.log(`${largest} is largest number`);
-
+//     console.log(largest);
 // }
-// largestNumber([244, 34, 22, 506, 12, 78, 222]);
+// largestNumber([244, 34, 22, 506, 12, 758, 222]);
 
 // Write a function that returns the smallest number in an array.
 // function smallestNumber(arr){
@@ -233,3 +233,49 @@
 //   console.log(arr2);
 // }
 // duplicates([2, 6, 4, 3, 2, 1, 6, 3, 7]);
+
+
+// 🔵 Level 4 — Advanced Function Concepts
+
+// Write a function that returns the second largest number in an array.
+// function secondLargest(arr){
+//     let largest = arr[0];
+//     for(let i = 0; i <= arr.length; i++){
+//         if(arr[i] > arr[0]){
+//             largest = arr[i];
+//             console.log(largest);
+//         }
+//     }
+    
+// }
+// secondLargest([244, 34, 2, 506, 12, 78, 222])
+
+
+// Write a function that capitalizes the first letter of each word in a string.
+// function capital(string){
+   
+// }
+// capital("hello My name is deep ganesh pakhare")
+
+
+// Write a function that counts the frequency of characters in a string.
+
+
+
+// Write a function that reverses each word in a sentence.
+function reverseWord(string){
+   let reverse = " ";
+   for(let char of string){
+    reverse = char + reverse;
+    if(char == " "){
+        break;
+    }
+   }
+   console.log(reverse);
+   
+}
+reverseWord("hello My name is deep ganesh pakhare")
+
+
+
+// Write a function that checks if two strings are anagrams.
