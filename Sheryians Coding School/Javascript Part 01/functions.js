@@ -240,22 +240,33 @@
 // Write a function that returns the second largest number in an array.
 // function secondLargest(arr){
 //     let largest = arr[0];
-//     for(let i = 0; i <= arr.length; i++){
+//     let second = arr[0];
+//     for(let i = 0; i < arr.length; i++){
 //         if(arr[i] > arr[0]){
+//             second = largest;
 //             largest = arr[i];
-//             console.log(largest);
+//         } else if (arr[i] > second && arr[i] !== largest) {
+//             second = arr[i]
 //         }
 //     }
+//     console.log(second);
     
 // }
-// secondLargest([244, 34, 2, 506, 12, 78, 222])
+// secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 // Write a function that capitalizes the first letter of each word in a string.
-// function capital(string){
-   
-// }
-// capital("hello My name is deep ganesh pakhare")
+function capitalizeWords(str) {
+  let words = str.split(" ");
+
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+  }
+
+  return words.join(" ");
+}
+
+console.log(capitalizeWords("javascript is powerful"));
 
 
 // Write a function that counts the frequency of characters in a string.
@@ -263,18 +274,18 @@
 
 
 // Write a function that reverses each word in a sentence.
-function reverseWord(string){
-   let reverse = " ";
-   for(let char of string){
-    reverse = char + reverse;
-    if(char == " "){
-        break;
-    }
-   }
-   console.log(reverse);
+// function reverseWord(string){
+//    let reverse = " ";
+//    for(let char of string){
+//     reverse = char + reverse;
+//     if(char == " "){
+//         break;
+//     }
+//    }
+//    console.log(reverse);
    
-}
-reverseWord("hello My name is deep ganesh pakhare")
+// }
+// reverseWord("hello My name is deep ganesh pakhare")
 
 
 
