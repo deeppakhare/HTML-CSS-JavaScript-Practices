@@ -263,23 +263,7 @@ secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 // Write a function that counts the frequency of characters in a string.
-function charFrequency(str) {
-  let freq = {};
 
-  for (let i = 0; i < str.length; i++) {
-    let ch = str[i];
-
-    if (freq[ch]) {
-      freq[ch]++;
-    } else {
-      freq[ch] = 1;
-    }
-  }
-
-  return freq;
-}
-
-console.log(charFrequency("javascript"));
 
 
 // Write a function that reverses each word in a sentence.
