@@ -267,18 +267,24 @@ secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 // Write a function that reverses each word in a sentence.
-// function reverseWord(string){
-//    let reverse = " ";
-//    for(let char of string){
-//     reverse = char + reverse;
-//     if(char == " "){
-//         break;
-//     }
-//    }
-//    console.log(reverse);
-   
-// }
-// reverseWord("hello My name is deep ganesh pakhare")
+function reverseWords(sentence) {
+  let words = sentence.split(" ");
+
+  for (let i = 0; i < words.length; i++) {
+    let word = words[i];
+    let reversed = "";
+
+    for (let j = word.length - 1; j >= 0; j--) {
+      reversed += word[j];
+    }
+
+    words[i] = reversed;
+  }
+
+  return words.join(" ");
+}
+
+console.log(reverseWords("I love JS"));
 
 
 
