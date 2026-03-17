@@ -266,3 +266,34 @@ secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 
+// Write a function that reverses each word in a sentence.
+// function reverseWords(sentence) {
+//   let words = sentence.split(" ");
+
+//   for (let i = 0; i < words.length; i++) {
+//     let word = words[i];
+//     let reversed = "";
+
+//     for (let j = word.length - 1; j >= 0; j--) {
+//       reversed += word[j];
+//     }
+
+//     words[i] = reversed;
+//   }
+
+//   return words.join(" ");
+// }
+
+// console.log(reverseWords("I love JS"));
+
+
+
+// Write a function that checks if two strings are anagrams.
+function checkAnagram(str1, str2) {
+  let a = str1.split("").sort().join("");
+  let b = str2.split("").sort().join("");
+
+  return a === b;
+}
+
+console.log(checkAnagram("listen", "silent"));
