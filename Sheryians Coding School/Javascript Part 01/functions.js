@@ -238,21 +238,21 @@
 // 🔵 Level 4 — Advanced Function Concepts
 
 // Write a function that returns the second largest number in an array.
-function secondLargest(arr){
-    let largest = arr[0];
-    let second = arr[0];
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] > arr[0]){
-            second = largest;
-            largest = arr[i];
-        } else if (arr[i] > second && arr[i] !== largest) {
-            second = arr[i]
-        }
-    }
-    console.log(second);
+// function secondLargest(arr){
+//     let largest = arr[0];
+//     let second = arr[0];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] > arr[0]){
+//             second = largest;
+//             largest = arr[i];
+//         } else if (arr[i] > second && arr[i] !== largest) {
+//             second = arr[i]
+//         }
+//     }
+//     console.log(second);
     
-}
-secondLargest([244, 34, 2, 50, 125, 75, 222])
+// }
+// secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 // Write a function that capitalizes the first letter of each word in a string.
@@ -289,11 +289,11 @@ secondLargest([244, 34, 2, 50, 125, 75, 222])
 
 
 // Write a function that checks if two strings are anagrams.
-function checkAnagram(str1, str2) {
-  let a = str1.split("").sort().join("");
-  let b = str2.split("").sort().join("");
+// function checkAnagram(str1, str2) {
+//   let a = str1.split("").sort().join("");
+//   let b = str2.split("").sort().join("");
 
-  return a === b;
-}
+//   return a === b;
+// }
 
-console.log(checkAnagram("listen", "silent"));
+// console.log(checkAnagram("listen", "silent"));

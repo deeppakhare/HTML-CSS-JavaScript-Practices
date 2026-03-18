@@ -4,7 +4,6 @@
 
 // console.log("Result is : " + result);
 
-
 // function calc(a, b, operator) {
 //     let result;
 
@@ -34,8 +33,7 @@
 
 // console.log(calc(2, 0, '/'));
 
-
-// Write a function getGrade(score) that: 
+// Write a function getGrade(score) that:
 // - Takes a students marks (0 to 100)\
 //  - Returns the grade based on this logic :
 
@@ -60,7 +58,6 @@
 // }
 //     console.log(getGrade(89));
 
-
 // function getGrade(score) {
 //     if (score >= 90 && score <= 100) return "A+"
 //     if (score >= 80 && score <= 89) return "A"
@@ -72,8 +69,6 @@
 // }
 
 // console.log(getGrade(99));
-
-
 
 // *********  Rock - Paper - Seasor Logic  ***************
 
@@ -89,7 +84,6 @@
 //     // if (userTerm === "seasor" && computerTerm === "seasor") return "Tie"
 //     // return "check input"
 
-
 //     if (userTerm === computerTerm ) return "Tie"
 
 //     if (userTerm === "rock" && computerTerm === "seasor") return "User win";
@@ -100,14 +94,12 @@
 
 // console.log(rps("rock", "paper"));
 
-
-
 //   ************* for loop ************
 
 // 1-100 print
 //  for loop ->
 // for (let i = 1; i <= 100; i++) {
-//     console.log(i);    
+//     console.log(i);
 // }
 
 // while loop ->
@@ -117,7 +109,6 @@
 //     i++;
 // }
 
-
 // do while loop
 // let i = 13;
 // do {
@@ -126,8 +117,7 @@
 // }
 // while(i <= 45)
 
-
-// break 
+// break
 // for (let i = 1; i < 101; i++) {
 //     console.log(i);
 //     if (i === 32) {
@@ -143,7 +133,7 @@
 //     console.log(i);
 // }
 
-// Q. print numbers from 10 to 1 using while 
+// Q. print numbers from 10 to 1 using while
 // for(let i = 10;i >= 1; i--) {
 //     console.log(i);
 // }
@@ -154,12 +144,11 @@
 //     i--;
 // }
 
-
 // Q Print even number from 1 to 20 using for loop
 // for (let i = 1; i <= 20; i ++) {
 //     if (i%2 == 0) {
 //         console.log(i);
-//     }  
+//     }
 // }
 
 // let i = 1;
@@ -169,7 +158,6 @@
 //     }
 //     i++;
 // }
-
 
 //  Q. print odd numbers from 1 to 15 usind while loop
 // let i = 0;
@@ -188,7 +176,7 @@
 
 // Q. print table of 5
 // for (let i = 1; i <= 10; i ++) {
-//     let j = 5;    
+//     let j = 5;
 //     // let c = i * j;
 //     console.log(`${j} X ${i} = ${i * j}`);
 // }
@@ -215,8 +203,8 @@
 //     }
 // }
 
-//  Q. Ask user for a number and print 
-// whether each number from 1 to that 
+//  Q. Ask user for a number and print
+// whether each number from 1 to that
 // number is even or odd
 
 // let val = prompt("give a number");
@@ -229,7 +217,6 @@
 //     }
 // }
 
-
 // Q. Count how many numbers between 1 to 100
 // divisible by both 3 and 5
 
@@ -238,7 +225,6 @@
 //         console.log(i)
 //     }
 // }
-
 
 // Q.1. Stop at First Multiple of 7
 // Write a loop from 1 to 100 that:
@@ -252,7 +238,6 @@
 //     }
 // }
 
-
 // Q.2. Skip Multiple of 3
 // Write a loop from 1 to 20 that:
 // -- Skips number divisible by 3
@@ -265,8 +250,7 @@
 //     console.log(i);
 // }
 
-
-// Q.5 Print First 5 odd numbers only 
+// Q.5 Print First 5 odd numbers only
 // write loop from 1 to 100
 
 // let count = 0;
@@ -278,7 +262,6 @@
 //     if (count === 5) break;
 // }
 
-
 // Reverse the string using loop
 // Using for ... of loop
 
@@ -289,15 +272,12 @@
 // }
 // console.log(reverse);
 
-
 // let firstName = "STEVE";
 // let reversed = ""
 // for(let val of firstName){
 //     reversed = val + reversed;
 // }
 // console.log(reversed);
-
-
 
 // Sum of all numbers in an array
 // let nums = [20, 13, 42];
@@ -308,11 +288,10 @@
 // })
 // console.log(sum);
 
-
 // Print all characters of a name using for of
 // for(let name of "Maxwell"){
 //     console.log(name);
-// } 
+// }
 
 // Print all object keys and values using for-in
 // let user = {firstName: "Deep",lastName: "Pakhare"}
@@ -344,7 +323,6 @@
 //     }
 // }
 
-
 // Print the trangle pattern using *
 // let rows = 5;
 // for(let i = 1;i <= rows; i++) {
@@ -355,7 +333,6 @@
 //     }
 //     console.log(star);
 // }
-
 
 // let rows = 5;
 // for(let i = 1;i <= rows; i++) {
@@ -372,9 +349,6 @@
 //     console.log(space + star);
 
 // }
-
-
-
 
 // Sum of even numbers in an array using forEach
 // let arr = [2, 3, 7, 4, 10, 11, 22];
@@ -393,12 +367,10 @@
 // })
 // console.log(sum);
 
-
 // Print numbers from 100 to 1
 // for(let i = 10;i >= 1;i--){
 //     console.log(i);
 // }
-
 
 // Print sum of numbers from 1 to 100
 // let sum = 0;
@@ -413,7 +385,6 @@
 //     console.log(`${mul} X ${i} = ${i*mul}`);
 // }
 
-
 // find factorial of number
 // 5 X 4 X 3 X 2 X 1 = 120
 // let fact = 1;
@@ -421,7 +392,6 @@
 //     fact = fact * i;
 // }
 // console.log(fact);
-
 
 // reverse a number 12345
 // let num = 12345;
@@ -435,8 +405,6 @@
 // }
 // console.log(reverse);
 
-
-
 // Count digits in a number
 // let num = 4332222222222;
 // let count = 0;
@@ -446,7 +414,6 @@
 // }
 // console.log(count);
 
-
 // let number = 2345666;
 // let count = 0;
 // while(number > 0) {
@@ -455,8 +422,6 @@
 
 // }
 // console.log(count);
-
-
 
 // Print number trangle
 // let rows = 5;
@@ -477,7 +442,6 @@
 //     console.log(space);
 // }
 
-
 // Check the palindrome number
 // Palindrome number mhanje jya number la reversed kelya var te original number sarkha diste;
 // let originalNumber = 1213
@@ -489,10 +453,9 @@
 //     reversed = 10 * reversed + lastDigit;
 
 //     num = Math.floor(num / 10);
-// } 
+// }
 // if (originalNumber === reversed) {console.log(`The num ${originalNumber} is palindrome number.`);}
 // else {console.log(`The number is not palindrome.`)}
-
 
 // let originalNum =  223343243322;
 // let num = originalNum;
@@ -505,8 +468,6 @@
 // if(reversed === originalNum) return console.log(`It is palindrome`);
 // else return console.log(`It is not palindrome`);
 
-
-
 // find largest number in array
 // let arr = [21, 33, 10 , 4, 12, 8, 10, 44];
 // let largest = arr[0];
@@ -517,9 +478,7 @@
 // }
 // console.log(largest);
 
-
-
-// Print febonacci series 
+// Print febonacci series
 // let n = 8;
 // let a = 0;
 // let b = 1;
@@ -533,7 +492,6 @@
 //     a = b;
 //     b = next;
 // }
-
 
 // let n = 6;
 // let a = 0;
@@ -550,9 +508,7 @@
 
 // }
 
-
-
-//  Check number is prime number 
+//  Check number is prime number
 // let num = 7;
 // let isPrime = true;
 // for(let i = 2; i < num; i++) {
@@ -608,7 +564,6 @@
 //     }
 // }
 
-
 // for(let num = 2; num <= 100; num++){
 //     isPrime = true;
 //     for(let i = 2;i < num; i++){
@@ -622,8 +577,6 @@
 // }
 // }
 
-
-
 // find Greatest Common Divisor(GCD) of two numbers;
 // let a = 12;
 // let b = 18;
@@ -634,7 +587,6 @@
 //     }
 // }
 // console.log(`${gcd} is GCD of ${a} & ${b}`);
-
 
 // Fing Least Common Multiple (LCM)
 // let a = 12;
@@ -649,7 +601,6 @@
 // console.log(`GCD is ${gcd}`);
 // let lcm = (a * b) / gcd;
 // console.log(`LCM of given two numbers is ${lcm}`);
-
 
 // Remove duplicates from an array
 // let arr = [2, 3, 6, 3, 4, 1 ,5 ,1 , 3, 2];
@@ -668,7 +619,6 @@
 // }
 // console.log(arr2);
 
-
 // let arr = [2,3,5,6,7,8,3,2,1,9,5,6,7,2,3,3];
 // let arr2 = [];
 // for(let i = 0;i<=arr.length;i++){
@@ -685,7 +635,6 @@
 // }
 // console.log(arr2);
 
-
 // Count vowels in the string
 // let sentence = "anything";
 // let count = 0;
@@ -694,24 +643,20 @@
 //         char === "e" ||
 //         char === "i" ||
 //         char === "o" ||
-//         char === "u" 
+//         char === "u"
 //     ) {
 //         count++;
-//     } 
+//     }
 // }
 // console.log(count);
-
 
 // function higher(){
 //     return function(){
 //         console.log("deep");
-        
+
 //     }
 // }
 // higher()();
-
-
-
 
 // ***********************  FUNCTIONS *****************************
 // Q1. What is difference between function declaration and expression in terms of hoistung;
@@ -730,8 +675,7 @@
 // }
 // multiply(2, 4);
 
-
-// Q. Use rest parameter to accept any number of score and 
+// Q. Use rest parameter to accept any number of score and
 // return the total
 
 // function getScore(...scores) {
@@ -744,7 +688,6 @@
 
 // console.log(getScore(10, 23, 23, 55, 53, 12));
 
-
 // Q. Fix the function using early return
 // function checkAge(age){
 //     if(age < 18){
@@ -754,13 +697,11 @@
 //     }
 // }
 
-
 // function checkAge(age) {
 //     if (age < 18) return "Too young";
 //     else return "Allowed";
 // }
 // console.log(checkAge(22));
-
 
 // Q  pass a function to another function
 
@@ -771,7 +712,6 @@
 //     console.log("hellow world");
 // })
 
-
 // Q. Convert this normal function into an IIFE
 // function init(){
 //     console.log("Initialized");
@@ -781,7 +721,6 @@
 //     console.log("Initilized")
 // })();
 
-
 // Q. Write a BMI calculator function
 
 // function bmi(height, weight) {
@@ -789,14 +728,12 @@
 // }
 // console.log(bmi(1.76, 56).toFixed(2));
 
-
-// Q. Create a greet function with default name 
+// Q. Create a greet function with default name
 
 // function greet(msg = "Welcome to my world") {
 //     console.log(msg);
 // }
 // greet();
-
 
 // Q. Sum all numbers using rest parameters
 
@@ -808,7 +745,6 @@
 //     return total;
 // }
 // console.log(sum(2, 3, 4, 5, 6, 7, 8, 9, 10));
-
 
 // Q. Create a closure counter function
 
@@ -822,7 +758,6 @@
 // let counterer = counter();
 // counterer();
 // counterer();
-
 
 // Q. Write a function that returns another function
 
@@ -848,14 +783,13 @@
 // console.log("The triple of 3 is ",triple(3));
 // console.log("The quatraple of 10 is ",quadraple(10));
 
-
 // Q. Use a function to log even numbers in array
 
 // function even(...num){
 //     num.forEach(function(val){
 //         if (val % 2 === 0) return console.log(val);
 //     })
-    
+
 // }
 // console.log(even(2, 3, 7, 6, 9, 10, 5, 3));
 
@@ -865,12 +799,11 @@
 //     console.log("Welcome to my code")
 // })();
 
-
 // Q. Write a discount calculator (HOF style)
 
 // function discountCalculator(discount){
 //     return function(price){
-//         return price - price * (discount / 100); 
+//         return price - price * (discount / 100);
 //     }
 // }
 // let ten = discountCalculator(10);
@@ -883,7 +816,6 @@
 // console.log(thirty(100));
 // console.log(fourty(100));
 
-
 // Q. create a function to transform value
 
 // function double(val){
@@ -891,4 +823,30 @@
 // }
 // console.log(double(5));
 
+// ****************************  Arrays ****************************************
 
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(1,2)
+// console.log(arr);
+
+// let newArr = arr.slice(2, 5);
+// console.log(newArr);
+
+// arr.reverse();
+// console.log(arr);
+
+let arr2 = [22, 45, 8, 12, 54, 90];
+// arr2.sort(function (a, b) {
+//    return a - b;
+// });
+// console.log(arr2);
+
+// arr2.forEach(function (val) {
+//     console.log(val);
+// });
+
+// Map 
+let newarr2 = arr2.map(function (val) {
+    return 12;
+})
+console.log(newarr2);
