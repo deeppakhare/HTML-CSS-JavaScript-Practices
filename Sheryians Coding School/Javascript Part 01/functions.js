@@ -287,3 +287,13 @@
 // console.log(reverseWords("I love JS"));
 
 
+
+// Write a function that checks if two strings are anagrams.
+// function checkAnagram(str1, str2) {
+//   let a = str1.split("").sort().join("");
+//   let b = str2.split("").sort().join("");
+
+//   return a === b;
+// }
+
+// console.log(checkAnagram("listen", "silent"));
