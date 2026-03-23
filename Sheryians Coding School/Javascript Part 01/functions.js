@@ -266,7 +266,25 @@
 
 
 
+// Write a function that reverses each word in a sentence.
+// function reverseWords(sentence) {
+//   let words = sentence.split(" ");
 
+//   for (let i = 0; i < words.length; i++) {
+//     let word = words[i];
+//     let reversed = "";
+
+//     for (let j = word.length - 1; j >= 0; j--) {
+//       reversed += word[j];
+//     }
+
+//     words[i] = reversed;
+//   }
+
+//   return words.join(" ");
+// }
+
+// console.log(reverseWords("I love JS"));
 
 
 
