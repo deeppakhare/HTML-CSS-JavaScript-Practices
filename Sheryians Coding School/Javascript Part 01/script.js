@@ -815,3 +815,46 @@
 // console.log(twenty(100));
 // console.log(thirty(100));
 // console.log(fourty(100));
+
+// Q. create a function to transform value
+
+// function double(val){
+//     return val * 2;
+// }
+// console.log(double(5));
+
+// ****************************  Arrays ****************************************
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(1,2)
+// console.log(arr);
+
+// let newArr = arr.slice(2, 5);
+// console.log(newArr);
+
+// arr.reverse();
+// console.log(arr);
+
+let arr2 = [22, 45, 8, 12, 54, 90];
+// arr2.sort(function (a, b) {
+//    return a - b;
+// });
+// console.log(arr2);
+
+// arr2.forEach(function (val) {
+//     console.log(val);
+// });
+
+
+
+// Map 
+// let newarr2 = arr2.map(function (val) {
+//     if (val > 50) return val;
+// })
+// console.log(newarr2);
+
+// Filter
+// let newarr2 = arr2.filter(function(val){
+//     if(val > 50) return true;
+// })
+// console.log(newarr2);
