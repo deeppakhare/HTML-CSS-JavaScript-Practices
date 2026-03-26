@@ -845,5 +845,15 @@ let arr2 = [22, 45, 8, 12, 54, 90];
 //     console.log(val);
 // });
 
+// Map 
+// let newarr2 = arr2.map(function (val) {
+//     if (val > 50) return val;
+// })
+// console.log(newarr2);
 
+// Filter
+// let newarr2 = arr2.filter(function(val){
+//     if(val > 50) return true;
+// })
+// console.log(newarr2);
 
