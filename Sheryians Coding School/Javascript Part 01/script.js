@@ -835,7 +835,15 @@
 // arr.reverse();
 // console.log(arr);
 
+let arr2 = [22, 45, 8, 12, 54, 90];
+// arr2.sort(function (a, b) {
+//    return a - b;
+// });
+// console.log(arr2);
 
+// arr2.forEach(function (val) {
+//     console.log(val);
+// });
 
 // Map 
 // let newarr2 = arr2.map(function (val) {
