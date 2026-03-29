@@ -852,8 +852,8 @@ let arr2 = [22, 45, 8, 12, 54, 90];
 // console.log(newarr2);
 
 // Filter
-let newarr2 = arr2.filter(function(val){
-    if(val > 50) return true;
-})
-console.log(newarr2);
+// let newarr2 = arr2.filter(function(val){
+//     if(val > 50) return true;
+// })
+// console.log(newarr2);
 
